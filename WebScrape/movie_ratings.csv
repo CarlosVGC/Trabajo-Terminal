@@ -1,0 +1,95 @@
+,movie,year,imdb,metascore,votes,n_imdb
+0,Gladiator,2000,8.5,67,1306144,85.0
+1,Memento,2000,8.4,80,1096594,84.0
+2,Snatch,2000,8.3,55,765652,83.0
+3,Requiem for a Dream,2000,8.3,68,747221,83.0
+4,X-Men,2000,7.4,64,561494,74.0
+5,Cast Away,2000,7.8,73,509976,78.0
+6,American Psycho,2000,7.6,64,471626,76.0
+7,Unbreakable,2000,7.3,62,379706,73.0
+8,Mission: Impossible II,2000,6.1,59,308190,61.0
+9,Meet the Parents,2000,7.0,73,306170,70.0
+10,"O Brother, Where Art Thou?",2000,7.7,69,279114,77.0
+11,Gone in 60 Seconds,2000,6.5,35,256546,65.0
+12,The Patriot,2000,7.2,63,250534,72.0
+13,"Crouching Tiger, Hidden Dragon",2000,7.8,94,249363,78.0
+14,Almost Famous,2000,7.9,90,247325,79.0
+15,Scary Movie,2000,6.2,48,228054,62.0
+16,Final Destination,2000,6.7,36,224589,67.0
+17,Pitch Black,2000,7.1,49,222420,71.0
+18,The Beach,2000,6.7,43,219117,67.0
+19,Amores Perros,2000,8.1,83,219001,81.0
+20,"Me, Myself & Irene",2000,6.6,49,218868,66.0
+21,How the Grinch Stole Christmas,2000,6.2,46,198240,62.0
+22,Remember the Titans,2000,7.8,48,194106,78.0
+23,Traffic,2000,7.6,86,193004,76.0
+24,What Women Want,2000,6.4,47,188520,64.0
+25,Miss Congeniality,2000,6.2,43,182758,62.0
+26,Chocolat,2000,7.2,64,175170,72.0
+27,The Emperor's New Groove,2000,7.3,70,174936,73.0
+28,Chicken Run,2000,7.0,88,173821,70.0
+29,Charlie's Angels,2000,5.5,52,173471,55.0
+30,Erin Brockovich,2000,7.3,73,170507,73.0
+31,Battle Royale,2000,7.6,81,166262,76.0
+32,High Fidelity,2000,7.5,79,165365,75.0
+33,Road Trip,2000,6.4,55,155236,64.0
+34,The Perfect Storm,2000,6.4,59,153809,64.0
+35,"Dude, Where's My Car?",2000,5.5,30,132884,55.0
+36,Billy Elliot,2000,7.7,74,123902,77.0
+37,Hollow Man,2000,5.8,24,121756,58.0
+38,Scream 3,2000,5.6,56,121001,56.0
+39,In the Mood for Love,2000,8.1,85,118866,81.0
+40,Shanghai Noon,2000,6.6,77,117465,66.0
+41,What Lies Beneath,2000,6.6,51,115957,66.0
+42,The 6th Day,2000,5.9,49,115011,59.0
+43,Pay It Forward,2000,7.2,40,111281,72.0
+44,The Whole Nine Yards,2000,6.7,47,108481,67.0
+45,Men of Honor,2000,7.2,56,105382,72.0
+46,Coyote Ugly,2000,5.7,27,105132,57.0
+47,The Family Man,2000,6.8,42,101159,68.0
+48,Dancer in the Dark,2000,8.0,61,99955,80.0
+49,The Lord of the Rings: The Fellowship of the Ring,2001,8.8,92,1617697,88.0
+50,A Beautiful Mind,2001,8.2,72,826363,82.0
+51,"Monsters, Inc.",2001,8.0,79,793872,80.0
+52,Donnie Darko,2001,8.0,71,727723,80.0
+53,Amélie,2001,8.3,69,689745,83.0
+54,Spirited Away,2001,8.6,96,625050,86.0
+55,Harry Potter and the Sorcerer's Stone,2001,7.6,64,623907,76.0
+56,Shrek,2001,7.8,84,599319,78.0
+57,Ocean's Eleven,2001,7.7,74,503816,77.0
+58,Training Day,2001,7.7,69,380921,77.0
+59,Black Hawk Down,2001,7.7,74,357799,77.0
+60,The Fast and the Furious,2001,6.8,58,340733,68.0
+61,The Others,2001,7.6,74,330217,76.0
+62,Mulholland Drive,2001,8.0,85,312410,80.0
+63,Pearl Harbor,2001,6.2,44,306734,62.0
+64,The Mummy Returns,2001,6.3,48,296417,63.0
+65,Jurassic Park III,2001,5.9,42,290560,59.0
+66,A.I. Artificial Intelligence,2001,7.2,65,286172,72.0
+67,Moulin Rouge!,2001,7.6,66,262668,76.0
+68,The Royal Tenenbaums,2001,7.6,76,260648,76.0
+69,Hannibal,2001,6.8,57,249678,68.0
+70,Vanilla Sky,2001,6.9,45,244496,69.0
+71,Zoolander,2001,6.5,61,242308,65.0
+72,Enemy at the Gates,2001,7.6,53,237960,76.0
+73,Blow,2001,7.6,52,236262,76.0
+74,American Pie 2,2001,6.4,43,236152,64.0
+75,Bridget Jones's Diary,2001,6.7,66,219676,67.0
+76,Planet of the Apes,2001,5.7,50,207795,57.0
+77,Rush Hour 2,2001,6.6,48,196370,66.0
+78,Lara Croft: Tomb Raider,2001,5.8,33,194978,58.0
+79,Legally Blonde,2001,6.3,59,179758,63.0
+80,Swordfish,2001,6.5,32,174373,65.0
+81,K-PAX,2001,7.4,49,173115,74.0
+82,A Knight's Tale,2001,6.9,56,167377,69.0
+83,Scary Movie 2,2001,5.3,29,147011,53.0
+84,Jay and Silent Bob Strike Back,2001,6.8,51,146934,68.0
+85,From Hell,2001,6.8,54,144590,68.0
+86,Spy Game,2001,7.1,63,142468,71.0
+87,I Am Sam,2001,7.7,28,141045,77.0
+88,Shallow Hal,2001,5.9,48,125432,59.0
+89,The Princess Diaries,2001,6.3,52,124994,63.0
+90,The Score,2001,6.8,71,119026,68.0
+91,Evolution,2001,6.1,40,117974,61.0
+92,Y Tu Mamá También,2001,7.6,88,113559,76.0
+93,Ghost World,2001,7.3,88,111561,73.0
