@@ -1,0 +1,72 @@
+,Frutas,Precio Frutas,Verdura,Precio Verduras,Lacteos,Precio Lacteos,Carne,Precio Carnes,Enlatados ,Precio Enlatados
+0,Platano Tabasco,14.9,Jitomate Saladet,23.9,Leche Uht Semidescremada,22.0,Molida,83.2,Chicharron De Cerdo,159.0
+1,Papaya Maradol,32.9,Aguacate Hass,54.9,Leche Uht Deslactosada,33.0,Chuleta Ahumada,91.0,Granos De Elote Dorado,8.75
+2,Limon Agrio,39.5,Cebolla Blanca,32.9,Leche Uht Deslactosada,29.9,Pulpa De Pierna,80.0,Granos De Elote Dorado,13.45
+3,Limon Agrio Sin Semilla,32.9,Calabaza Italiana,27.9,Leche Uht Entera,20.85,Costilla,98.5,Garbanzos,14.9
+4,Naranja Valencia Para Jugo,31.9,Zanahoria,13.9,Leche Uht Semidescremada,9.0,Chuleta,99.0,Granos De Elote,8.55
+5,Mango Ataulfo,39.9,Papa Blanca,18.9,Leche Uht Deslactosada Light,30.05,Lomo,119.0,Champiñones Rebanados,16.9
+6,Melon Chino,31.9,Pepino,19.9,Leche Uht Entera,17.08,Filete,145.4,Granos De Elote Blanco Mexicano,13.95
+7,Piña Miel,32.9,Chayote Sin Espinas,12.9,Leche Uht Semidescremada,9.0,Milanesa De Pierna,104.0,Ensalada De Verduras,8.9
+8,Manzana Royal Gala,52.9,Chile Serrano,51.9,Leche Fresca Entera,34.0,Codillo,50.5,Ensalada De Verduras,10.35
+9,Fresa,71.0,Tomate Verde,23.9,Leche Uht Entera,102.5,Espinazo,131.9,Ajo Picado,89.0
+10,Manzana Starking,43.9,Tomate Verde Sin Cascara,26.9,Leche Uht Deslactosada,21.65,Milanesa De Lomo,133.0,Granos De Elote Dorado,12.95
+11,Jicama,14.9,Chile Poblano,42.9,Leche Uht Entera,31.5,Bistec De Pierna,84.8,Granos De Elote Dorado,12.95
+12,Pera De Anjou,25.9,Ejote Verde,25.9,Leche Uht Semidescremada,9.0,Lomo Ahumado,122.86,Champiñones Rebanados,30.2
+13,Uva Blanca Sin Semilla,86.9,Cebolla Morada,32.9,Producto Lacteo Uht Entero,15.95,Manitas,62.2,Garbanzo En Salmuera,16.7
+14,Guayaba,32.5,Jitomate Bola,26.5,Leche Uht Semidescremada,28.85,Lomo Rebanado,128.4,Champiñones Rebanados,13.5
+15,Toronja Sangria,26.9,Ajo Morado,171.0,Leche Fresca Light,31.5,Carrillera Baby Back,134.0,Champiñones En Trocitos,16.0
+16,Mango Manila,48.9,Jengibre,149.3,Leche Fresca Light 0 Lactosa,24.65,Cabeza De Lomo Sin Hueso,107.0,Ensalada De Verduras,11.6
+17,Platano Macho,26.9,Pimiento Rojo,71.9,Leche Fresca Entera,20.5,Hueso Pozolero,40.4,Chicharos,7.55
+18,Sandia Charleston,10.5,Pimiento Verde,71.0,Leche Fresca Entera,31.5,Espaldilla Con Hueso,86.0,Ensalada De Verduras Mas 15%,8.6
+19,Manzana Golden Ex,54.9,Betabel,17.9,Leche Uht Deslactosada Selecta,24.0,Cabeza De Lomo,108.8,Chicharos,7.05
+20,Manzana Rallada,29.9,Ajo Morado,8.2,Crema Acida,30.0,Milanesa De Pechuga,135.0,Granos De Elote Dorado Mas 15%,8.55
+21,Manzana Granny,49.9,Elote Blanco,6.9,Crema Acida Deslactosada,32.0,Pechuga Con Hueso Sin Piel,103.96,Chicharos Con Zanahorias,7.9
+22,Tuna Blanca,19.5,Papa Cambray,31.9,Crema Acida Light,33.0,Pechuga Congelada Importada,101.6,Champiñones En Escabeche,19.5
+23,Manzana Golden,29.9,Berenjena,99.5,Crema Acida,58.0,Pechuga Con Hueso Americano,73.7,Granos De Elote Dorado,11.25
+24,Limon Eureka,68.9,Pepino Criollo,5.5,Crema Acida Reducida En Grasa,30.0,Muslo Sin Piel,75.5,Ensalada De Legumbres,14.9
+25,Platano Dominico,31.0,Pimiento Naranja,97.0,Crema Acida,13.55,Filete De Pechuga,112.0,Champiñones En Escabeche,37.25
+26,Platano Tabasco Organico,24.3,Chile Cuaresmeño,32.9,Crema Acida,36.0,Pierna Sin Piel,72.7,Chicharos,11.2
+27,Durazno Melocoton,82.0,Poro,41.0,Crema Acida,26.05,Muslo,62.0,Ensalada Campesina,6.5
+28,Kiwi,87.1,Camote Amarillo Nacional,76.6,Crema Dulce,45.0,Milanesa De Pechuga Congelada,140.5,Ensalada De Legumbres,8.3
+29,Mango Paraiso,24.9,Chile Verde De Arbol,101.5,Crema Acida,49.8,Canal Entera,38.0,Ensalada De Verduras,11.5
+30,Uva Red Globo,25.9,Pimiento Amarillo,97.0,Crema Acida Reducida En Grasa,13.55,Molida De Pechuga,130.0,Ensalada Campesina,11.6
+31,Sandia Baby,24.9,Aguacate Booth,16.4,Crema Acida Deslactosada,62.5,Pierna Con Muslo Sin Piel,55.5,Granos De Elote Dorado,7.9
+32,Durazno Amarillo,63.9,Cebolla De Rabo,32.2,Crema Acida Deslactosada,14.3,Pierna Con Muslo Americano,36.4,Champiñones Enteros,18.0
+33,Manzana Golden Nacional,39.9,Chile Habanero,93.0,Crema Acida Light,16.25,Pechuga Sin Hueso,126.4,Chicharos Y Zanahorias,13.1
+34,Naranja Importada,59.9,Jitomate Cherry,30.3,Crema Acida Reducida En Grasa,58.0,Pechuga Con Hueso Anatomica,95.5,Flor De Calabaza,22.2
+35,Mandarina Clementina,79.9,Chicharo,56.7,Crema Acida Light,65.0,Pierna,64.2,Champiñones Rebanados,26.9
+36,Frambuesa,78.0,Calabaza Criolla,29.1,Crema Dulce,91.0,Pierna Con Muslo,64.0,Champiñones En Trocitos,31.0
+37,Piña,31.3,Pimiento Semaforo,81.0,Crema Natural,15.9,Rabadilla,22.8,Flor De Calabaza,35.0
+38,Zarzamora,75.0,Cremini Rebanado,25.0,Crema Natural,31.5,Alas,68.4,Chicharos,11.6
+39,Sandia Sin Semilla,13.5,Pepino Europeo,33.9,Crema Acida Premium Selecta,29.1,Canal Entera Partida,58.5,Champiñones Enteros,17.5
+40,Ciruela Moscatel,57.9,Cebolla Blanca,32.4,Huevo Blanco,58.0,Molida Sirloin 95/5,179.0,Ejotes,15.0
+41,Melon Valenciano,29.9,Elote Blanco Entero Limpio,22.4,Huevo Blanco,36.0,Milanesa De Centro,196.0,Arroz Gohan Blanco,199.0
+42,Mamey,44.9,Tomatillo Milpero,34.3,Huevo Blanco,24.5,Milanesa De Bola,187.0,Champiñones En Trocitos,27.5
+43,Pera Bosc,79.9,Papa Amarilla Chica,37.8,Huevo Blanco,37.0,Deshebrada,127.2,Ensalada De Verduras,7.9
+44,Granada Roja,47.9,Portabella Entero,61.8,Huevo Blanco,26.0,Bistec Para Asar,169.3,Ensalada Campesina,11.25
+45,Pera Bartlett,73.9,Camote Anaranjado Importado,99.5,Huevo Blanco,56.0,Molida Selecta 80/20,177.0,Ensalada De Vegetales,15.0
+46,Uva Negra Sin Semilla,99.5,Aguacate Criollo,67.2,Huevo Blanco,55.1,Fajita De Centro,158.4,Champiñones En Trocitos,14.9
+47,Manzana Fuji,44.8,Ajo Pelado,54.5,Huevo Blanco,43.87,Chambarete Sin Hueso,155.0,Champiñones Rebanados,30.0
+48,Higo,82.1,Zanahoria Cambray,22.8,Huevo Blanco,56.12,Bistec De Diezmillo,170.4,Chicharos Con Zanahoria,8.3
+49,Kiwi Dorado,69.9,Elote Blanco En Trozos,22.4,Huevo Blanco,33.57,Bistec De Aguayon,198.0,Chicharos,7.15
+50,Nectarina,94.0,Tomatoes Cherubs,41.9,Huevo Blanco,72.44,Chambarete Con Hueso,104.9,Chicharos,8.6
+51,Tangerina,23.9,Chayote Con Espinas,29.9,Huevo Blanco,73.46,Carne Para Asar,140.0,Ensalada Campesina,8.6
+52,Uva Roja Sin Semilla,88.0,Champiñon Blanco,85.9,Huevo Blanco,31.62,Tampiqueña De Filete,454.0,Champiñones En Escabeche,18.9
+53,Ciruela Nubiana,97.5,Haba Verde,37.3,Huevo Blanco,23.37,Molida Mixta,125.0,Chicharos Con Zanahorias,13.5
+54,Lima,40.3,Ajo Italiano,204.0,Alimento Liquido Uht Almendra 0 Azucar,39.2,Milanesa De Contra,176.6,Chicharos Con Zanahorias,13.65
+55,Cereza,507.5,Papa Criolla,25.8,Alimento Liquido Uht Almendra,39.2,Bistec Ranchero,158.0,Corazones De Alcachofa,323.0
+56,Granada Roja Extra,129.9,Chalot,164.6,Alimento Liquido Uht Almendra 0 Azucar,39.2,Medallon De Filete,451.0,Granos De Elote Sazonado,13.65
+57,Higo Black Mission,89.9,Tomatoes Glorys,41.9,Alimento Liquido Uht Almendra 0 Azucar,36.05,Pulpa Para Estofado,171.0,Cebolla En Vinagre,59.7
+58,Calabaza De Castilla,17.9,Chicharo Limpio,97.0,Alimento Liquido Uht Coco 0 Azucar,33.15,Rib Eye,268.0,Granos De Elote Dorado,13.9
+59,Lichi,119.4,Pepino Europeo,12.9,Alimento Liquido Uht Coco,39.5,Cuete Entero,174.0,Arroz Con Granos Ancestrales,230.0
+60,Guanabana,78.1,Chile Cuaresmeño,9.5,Alimento Liquido Uht Soya Light,30.0,Molida,261.0,Chicharos Con Zanahorias,7.3
+61,Coco De Agua,17.9,Camote Blanco Nacional,76.6,Alimento Liquido Uht Almendra,33.6,Milanesa De Bola,276.0,Granos De Elote Dorado,7.5
+62,Maracuya,52.2,Chile Manzano,97.0,Alimento Liquido Uht Almendra,39.2,Fajita,276.0,Mole Don Pancho Apinonado 500 Gr,99.0
+63,Pera Red De Anjou,89.9,Camote Achicalado,87.0,Alimento Liquido Uht Soya,30.0,Tampiqueña,195.0,Champiñones Rebanados,13.5
+64,Limon Real,56.7,Chayote Cambray,37.3,Alimento Liquido Uht Almendra,44.25,Bistec De Aguayon,266.0,Champiñones En Trozos,13.5
+65,Manzana Pink Lady,50.7,Chicharo Chino,118.0,Alimento Liquido Uht Almendra,40.35,Deshebrada,251.0,Granos De Elote Sazonado,9.6
+66,Platano Morado,26.6,Ajo Shallot,39.8,Alimento Liquido Uht Coco,35.35,Filete,503.0,Ensalada De Verduras Sazonada,13.65
+67,Pera Asiatica,79.9,Chile Cristal,111.9,Alimento Liquido Uht Almendra Sin Gluten,12.5,Chambarete Con Hueso,134.0,Ensalada De Legumbres,11.5
+68,Zapote Negro,33.3,Elote Blanco,15.7,Alimento Liquido Uht Almendra,40.35,Chambarete Sin Hueso,187.0,Mole Actopan Polvo,53.5
+69,Pitahaya,89.0,Xoconoxtle,36.3,Alimento Liquido Uht Almendra,47.0,Cubitos,218.0,Chicharos Con Zanahorias,8.3
+70,Platano Tabasco,14.9,Chilacayote,71.6,Alimento Liquido Uht Arroz,40.35,Bistec De Espaldilla,184.0,Cebolla Caramelizada,75.9
