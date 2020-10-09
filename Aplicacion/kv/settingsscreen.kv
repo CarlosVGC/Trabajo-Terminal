@@ -1,0 +1,58 @@
+<SettingsScreen>:
+    
+    FloatLayout:
+            
+        MDLabel:
+            pos_hint: {"x": .15,"top": .9 }
+            size_hint: (.5, .1)
+            text: "Modo Nocturno: "
+            haling: "center"
+            theme_text_color: "Primary"
+            
+        MDSwitch:
+            id: mode
+            pos_hint: {"x":.7,"top": .9 }
+            size_hint: (.2, .1)
+            on_active: root.cambiar_modo(*args)
+            
+        MDIconButton:
+            pos_hint: {"x": .15,"top": .7 }
+            size_hint: (.2, .1)
+            icon: "format-paint"
+            on_release: root.show_theme_picker()
+            
+        MDLabel:
+            id: temas
+            pos_hint: {"x": .4,"top": .7 }
+            size_hint: (.5,.1)
+            text: "Seleccione un tema"
+            
+        MDIconButton:
+            pos_hint: {"x": .15,"top": .5 }
+            size_hint: (.2, .1)
+            icon: "calendar"
+            on_release: root.show_date_picker()
+            
+        MDLabel:
+            id: fecha
+            pos_hint: {"x": .4,"top": .5 }
+            size_hint: (.5,.1)
+            text: "Seleccione una fecha"
+        
+        MDIconButton:
+            pos_hint: {"x": .15,"top": .3 }
+            size_hint: (.2, .1)
+            icon: "clock"
+            on_release: root.show_time_picker()
+            
+        MDLabel:
+            id: hora
+            pos_hint: {"x": .4,"top": .3 }
+            size_hint: (.5,.1)
+            text: "Hora a mostrar notificaciones"  
+            
+           
+        
+            
+        
+        

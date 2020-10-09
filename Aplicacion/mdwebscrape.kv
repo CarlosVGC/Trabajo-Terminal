@@ -1,0 +1,86 @@
+#: include dashboard.kv
+# include firstscreen.kv
+#: include kv/settingsscreen.kv
+
+NavigationLayout:
+    id: nav_layout
+    ScreenManager:
+    
+        Screen:
+        
+            BoxLayout:
+                orientation: 'vertical'
+            
+                MDToolbar:
+                    title: app.title
+                    elevation: 10
+                    left_action_items: [["menu", lambda x: nav_drawer.set_state() ]]
+                
+                ScreenManager:
+                    id: screen_manager
+                    
+                    DashBoard:
+                        id: dasboard
+                        name : "dashboard"
+                    
+                    SettingsScreen:
+                        id: "settings_screen"
+                        name: "settings_screen"
+                    
+                    FirstScreen:
+                        id: first_screen
+                        name: "first_screen"
+                        
+                
+                
+    
+    MDNavigationDrawer:
+        id: nav_drawer
+        
+        BoxLayout:
+            orientation: 'vertical'
+            padding: "8dp"
+            spacing: "8dp"
+            
+            Image:
+                size_hint: None, None
+                size: "150dp", "150dp"
+                
+                source: "imagenes/icono.png"
+                
+            ScrollView:
+            
+                MDList:
+                            
+                    OneLineIconListItem:
+                        text: "Ajustes"
+                        on_release:
+                            screen_manager.current = "settings_screen"
+                            nav_drawer.set_state()
+                            
+                        IconLeftWidget:
+                            icon: "settings"  
+                            
+                    OneLineIconListItem:
+                        text: "Dasboard"
+                        on_release:
+                            screen_manager.current = "dashboard"
+                            nav_drawer.set_state()
+                            
+                        IconLeftWidget:
+                            icon: "view-dashboard"      
+                    
+                    
+                    
+                    OneLineIconListItem:
+                        text: "Comparador Precios"
+                        on_release:
+                            screen_manager.current = "first_screen"
+                            nav_drawer.set_state()
+                            
+                        IconLeftWidget:
+                            icon: "cart"
+                            
+                            
+                            
+                    
