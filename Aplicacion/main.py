@@ -142,5 +142,5 @@ class MyApp(MDApp):
     def build(self):
         self.title = "Inventario" #Titulo de la aplicación
         self.theme_cls.primary_palette = "Green"
-        return Builder.load_file('mdwebscrape.kv')
+        return Builder.load_file('main.kv')
 MyApp().run()
