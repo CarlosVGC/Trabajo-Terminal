@@ -7,17 +7,19 @@ from kivymd.uix.datatables import MDDataTable
 import pandas as pd
 from kivy.metrics import dp
 from kivymd.uix.button import MDRectangleFlatButton
+from kivymd.uix.button import MDRectangleFlatIconButton
 
 
-class DashBoard(Screen):
+class DashBoard(Screen):#Pantalla de Convertidor de unidades
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.app = MDApp.get_running_app()
-        self.sub_title = "Convertidor de onzas"
+        self.sub_title = "Convertidor de onzas" 
+        
         self.hint_onza_number = "Ingresa la cantidad de onzas"
     
     def on_pre_enter(self, *args):
-        self.app.title = "Convertidor Unidades"
+        self.app.title = "Convertidor Unidades" #Se cambia el nombre de la pantalla
         
     def on_kv_post(self, base_widget): #Se lea el archivo kivy
         grid = self.ids["grid_utilidades"]
@@ -53,14 +55,22 @@ class DashBoard(Screen):
         
     pass
 
-class FirstScreen(Screen):
-   
-    '''
-    def on_pre_enter(self, *args):
-        self.app.title = "Comparador de precios"
-    '''
-    def on_enter(self):
-        #screen = Screen()
+class FirstScreen(Screen): #Pantalla comparador de precios
+    
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.app = MDApp.get_running_app()
+        
+        '''
+        self.button = MDRectangleFlatIconButton(on_release = self.tabla,                                        
+                                               pos_hint = {"center_x":.5, "top": .9},
+                                               size_hint = (.3,.1),
+                                               icon = "math-compass",
+                                               text = "Chedraui")
+        
+        
+        self.add_widget(self.button)
+        '''
         datos = pd.read_csv("csv/info_che.csv", encoding = 'utf8')
         datos = datos.iloc[:,1: ]# primer arg selecciona todas las filas, segundo 
         cols = datos.columns.values
@@ -111,23 +121,14 @@ class FirstScreen(Screen):
                 on_release = self.open_table
                 )
         '''
+        self.add_widget(self.button)
+        #return self.button
+    #def tabla(self, widget):
         
-        return self.button
-    
+   
     def open_table(self, instance):
         #screen.add_widget(table)
         self.table.open()
-        
-        
-        
-        
-        '''
-        def on_start(self):
-            self.table.open()
-        '''
-        
-        
-        #return(screen)
         
     def check_press(self, instance_table, current_row):
         print(instance_table, current_row)
@@ -135,6 +136,12 @@ class FirstScreen(Screen):
     def row_press(self, instance_table, instance_row):
         print(instance_table, instance_row)
         
+        #self.sub_title = "Comparador" 
+    
+    def on_pre_enter(self, *args):
+        self.app.title = "Comparador de precios"
+        
+    
     pass
         
 
