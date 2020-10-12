@@ -9,6 +9,9 @@ from kivy.metrics import dp
 from kivymd.uix.button import MDRectangleFlatButton
 from kivymd.uix.button import MDRectangleFlatIconButton
 
+from kivy.properties import NumericProperty
+
+
 
 class DashBoard(Screen):#Pantalla de Convertidor de unidades
     def __init__(self, **kwargs):
@@ -61,32 +64,64 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         super().__init__(**kwargs)
         self.app = MDApp.get_running_app()
         
-        '''
-        self.button = MDRectangleFlatIconButton(on_release = self.tabla,                                        
-                                               pos_hint = {"center_x":.5, "top": .9},
-                                               size_hint = (.3,.1),
-                                               icon = "math-compass",
-                                               text = "Chedraui")
+        #self.botonvalor = botonvalor
         
-        
-        self.add_widget(self.button)
         '''
-        datos = pd.read_csv("csv/info_che.csv", encoding = 'utf8')
+        '''
+       
+        self.buttonche = MDRectangleFlatButton(
+                id = 'botonche',
+                pos_hint = {"center_x": .5, "y": .9},
+                text = "Precios en Chedraui",
+                #on_press = print('hola'),
+                on_release = lambda x: self.verboton('che')
+                )
+        
+        self.buttonsor = MDRectangleFlatButton(
+                id = 'botonsor',
+                pos_hint = {"center_x": .5, "y": .8},
+                
+                text = "Precios en Soriana",
+                on_release = lambda x: self.verboton('sor')
+                )
+        
+        self.buttonhbe = MDRectangleFlatButton(
+                id = 'botonhbe',
+                pos_hint = {"center_x": .5, "y": .7},
+                text = "Precios en HBE",
+                #on_press = print('hola'),
+                on_release = lambda x: self.verboton('hbe')
+                )
+        
+        self.buttoncomer = MDRectangleFlatButton(
+                id = 'botoncomer',
+                pos_hint = {"center_x": .5, "y": .6},
+                text = "Precios en La Comer",
+                #on_press = print('hola'),
+                on_release = lambda x: self.verboton('comer')
+                )
+        
+        self.add_widget(self.buttonche)
+        self.add_widget(self.buttonsor)
+        self.add_widget(self.buttonhbe)
+        self.add_widget(self.buttoncomer)
+        #return self.button
+    #def tabla(self, widget):
+        
+    def verboton(self, valor):
+        if valor == 'comer':
+            datos = pd.read_csv("csv/info_lacomer.csv", encoding = 'utf8')
+        elif valor == 'hbe':
+            datos = pd.read_csv("csv/info_hbe.csv", encoding = 'utf8')
+        elif valor == 'sor':
+            datos = pd.read_csv("csv/info_sor.csv", encoding = 'utf8')
+        elif valor == 'che':
+            datos = pd.read_csv("csv/info_che.csv", encoding = 'utf8')
+            
+            
         datos = datos.iloc[:,1: ]# primer arg selecciona todas las filas, segundo 
         cols = datos.columns.values
         values = datos.values
-        
-        #nombres = ['a','b','c','d','e','f','g','h','i','j']
-        #calorias=['10','20','30','40','50','60','70','80','90','100']
-        #items = [i for i in range(len(nombres))]
-        
-       # datosfila=[]
-        
-        #for a in range(10):
-         #   datosfila.append([items[a], nombres[a], calorias[a]]) 
-        
-        
-        #datosfila=[("1", "Hamburguesa", "300"),("2", "Papas", "200"),("3", "Tacos", "150")]
         
         self.table = MDDataTable(pos_hint={'center_x':0.5, 'center_y':0.5 },
                             size_hint=(0.99, 0.99),
@@ -103,31 +138,14 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         
         self.table.bind(on_check_press=self.check_press)
         self.table.bind(on_check_press=self.row_press)
-        
-       
-      
-        
-        self.button = MDRectangleFlatButton(
-                pos_hint = {"center_x": .5, "y": .8},
-                
-                text = "Precios en Chedraui",
-                on_release = self.open_table
-                )
-        '''
-        self.button2 = MDRectangleFlatButton(
-                pos_hint = {"center_x": .5, "y": .7},
-                
-                text = "Precios en Soriana",
-                on_release = self.open_table
-                )
-        '''
-        self.add_widget(self.button)
-        #return self.button
-    #def tabla(self, widget):
-        
-   
+
+        self.table.open()
+        print(valor)
+        #return tipo
+    
     def open_table(self, instance):
         #screen.add_widget(table)
+        
         self.table.open()
         
     def check_press(self, instance_table, current_row):
@@ -140,11 +158,8 @@ class FirstScreen(Screen): #Pantalla comparador de precios
     
     def on_pre_enter(self, *args):
         self.app.title = "Comparador de precios"
-        
-    
     pass
         
-
 class MyApp(MDApp):
     def build(self):
         self.title = "Inventario" #Titulo de la aplicación
