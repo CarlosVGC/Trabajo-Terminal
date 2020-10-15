@@ -151,7 +151,11 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_frutas)
-        #Info_frutas.to_csv('frutas_soriana.csv')
+        
+        archivo = pd.read_csv("csv/infofrutas.csv") #Se lee el archivo
+        archivo['Frutas Soriana'] = nombres_frutas[:60] 
+        archivo['Precio Frutas Soriana'] = precios_frutas[:60]
+        archivo.to_csv('csv/infofrutas.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 1:
         # Poniendo la info en pandas
@@ -164,7 +168,11 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_verduras)
-        #Info_verduras.to_csv('verduras_soriana.csv')
+        
+        archivo = pd.read_csv("csv/infoverduras.csv") #Se lee el archivo
+        archivo['Verduras Soriana'] = nombres_verduras[:60] 
+        archivo['Precio Verduras Soriana'] = precios_verduras[:60]
+        archivo.to_csv('csv/infoverduras.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 2:
         # Poniendo la info en pandas
@@ -177,7 +185,11 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_lacteos)
-        #Info_lacteos.to_csv('lacteos_soriana.csv')
+        
+        archivo = pd.read_csv("csv/infolacteos.csv") #Se lee el archivo
+        archivo['Lacteos Soriana'] = nombres_lacteos[:60] 
+        archivo['Precio Lacteos Soriana'] = precios_lacteos[:60]
+        archivo.to_csv('csv/infolacteos.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 3:
         # Poniendo la info en pandas
@@ -190,7 +202,11 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_carnes)
-        #Info_carnes.to_csv('carnes_soriana.csv')
+        
+        archivo = pd.read_csv("csv/infocarnes.csv") #Se lee el archivo
+        archivo['Carnes Soriana'] = nombres_carnes[:60] 
+        archivo['Precio Carnes Soriana'] = precios_carnes[:60]
+        archivo.to_csv('csv/infocarnes.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 4:
         # Poniendo la info en pandas
@@ -204,8 +220,11 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_enlatados)
-        #Info_enlatados.to_csv('enlatados_soriana.csv')
-    
+        
+        archivo = pd.read_csv("csv/infoenlatados.csv") #Se lee el archivo
+        archivo['Enlatados Soriana'] = nombres_enlatados[:60] 
+        archivo['Precio Enlatados Soriana'] = precios_enlatados[:60]
+        archivo.to_csv('csv/infoenlatados.csv',encoding = 'utf8',index=False)
         
         info_sor = pd.DataFrame({'Frutas':  nombres_frutas,
                                  'Precio Frutas': precios_frutas,
@@ -223,7 +242,3 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
         
         info_sor.to_csv('csv/info_sor.csv', encoding = 'utf8')
-        
-        
-    
-datossor()

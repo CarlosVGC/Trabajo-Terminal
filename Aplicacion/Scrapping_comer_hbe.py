@@ -144,6 +144,11 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
                                     })
         print(Info_frutas)
         
+        archivo = pd.read_csv("csv/infofrutas.csv") #Se lee el archivo
+        archivo['Frutas HBE'] = nombres_frutas[:60] 
+        archivo['Precio Frutas HBE'] = precios_frutas[:60]
+        archivo.to_csv('csv/infofrutas.csv',encoding = 'utf8',index=False)
+        
     if tipo_pagina == 1:
         # Poniendo la info en pandas
         global nombres_verduras
@@ -156,6 +161,11 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_verduras)
+        
+        archivo = pd.read_csv("csv/infoverduras.csv") #Se lee el archivo
+        archivo['Verduras HBE'] = nombres_verduras[:60] 
+        archivo['Precio Verduras HBE'] = precios_verduras[:60]
+        archivo.to_csv('csv/infoverduras.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 2:
         # Poniendo la info en pandas
@@ -170,6 +180,11 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
                                     })
         print(Info_lacteos)
         
+        archivo = pd.read_csv("csv/infolacteos.csv") #Se lee el archivo
+        archivo['Lacteos HBE'] = nombres_lacteos[:60] 
+        archivo['Precio Lacteos HBE'] = precios_lacteos[:60]
+        archivo.to_csv('csv/infolacteos.csv',encoding = 'utf8',index=False)
+        
     if tipo_pagina == 3:
         # Poniendo la info en pandas
         global nombres_carnes
@@ -182,6 +197,11 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_carnes)
+        
+        archivo = pd.read_csv("csv/infocarnes.csv") #Se lee el archivo
+        archivo['Carnes HBE'] = nombres_carnes[:60] 
+        archivo['Precio Carnes HBE'] = precios_carnes[:60]
+        archivo.to_csv('csv/infocarnes.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 4:
         # Poniendo la info en pandas          
@@ -196,6 +216,11 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_enlatados)
+        
+        archivo = pd.read_csv("csv/infoenlatados.csv") #Se lee el archivo
+        archivo['Enlatados HBE'] = nombres_enlatados[:60] 
+        archivo['Precio Enlatados HBE'] = precios_enlatados[:60]
+        archivo.to_csv('csv/infoenlatados.csv',encoding = 'utf8',index=False)
         
         info_hbe = pd.DataFrame({'Frutas':  nombres_frutas,
                                  'Precio Frutas': precios_frutas,
@@ -213,5 +238,3 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
     
         info_hbe.to_csv('csv/info_hbe.csv', encoding = 'utf8')
-
-extraerhbe()

@@ -153,6 +153,12 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
                                     })
         print(Info_frutas)
         
+        archivo = pd.read_csv("csv/infofrutas.csv") #Se lee el archivo
+        archivo['Frutas Chedraui'] = nombres_frutas[:60] 
+        archivo['Precio Frutas Chedraui'] = precios_frutas[:60]
+        archivo.to_csv('csv/infofrutas.csv',encoding = 'utf8',index=False)
+    
+        
     if tipo_pagina == 1:
         # Poniendo la info en pandas          
         global nombres_verduras
@@ -165,6 +171,11 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_verduras)
+        
+        archivo = pd.read_csv("csv/infoverduras.csv") #Se lee el archivo
+        archivo['Verduras Chedraui'] = nombres_verduras[:60] 
+        archivo['Precio Verduras Chedraui'] = precios_verduras[:60]
+        archivo.to_csv('csv/infoverduras.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 2:
         # Poniendo la info en pandas
@@ -180,6 +191,12 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
                                     })
         print(Info_lacteos)
         
+        archivo = pd.read_csv("csv/infolacteos.csv") #Se lee el archivo
+        archivo['Lacteos Chedraui'] = nombres_lacteos[:60] 
+        archivo['Precio Lacteos Chedraui'] = precios_lacteos[:60]
+        archivo.to_csv('csv/infolacteos.csv',encoding = 'utf8',index=False)
+        
+        
     if tipo_pagina == 3:
         # Poniendo la info en pandas
 
@@ -194,6 +211,11 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
                                     })
         print(Info_carnes)
         
+        archivo = pd.read_csv("csv/infocarnes.csv") #Se lee el archivo
+        archivo['Carnes Chedraui'] = nombres_carnes[:60] 
+        archivo['Precio Carnes Chedraui'] = precios_carnes[:60]
+        archivo.to_csv('csv/infocarnes.csv',encoding = 'utf8',index=False)
+        
     if tipo_pagina == 4:
         # Poniendo la info en pandas
 
@@ -207,6 +229,11 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_enlatados)
+        
+        archivo = pd.read_csv("csv/infoenlatados.csv") #Se lee el archivo
+        archivo['Enlatados Chedraui'] = nombres_enlatados[:60] 
+        archivo['Precio Enlatados Chedraui'] = precios_enlatados[:60]
+        archivo.to_csv('csv/infoenlatados.csv',encoding = 'utf8',index=False)
         
         info_che = pd.DataFrame({'Frutas':  nombres_frutas,
                                  'Precio Frutas': precios_frutas,
@@ -224,6 +251,3 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
         
         info_che.to_csv('csv/info_che.csv', encoding = 'utf8')
-        
-        
-datosche()

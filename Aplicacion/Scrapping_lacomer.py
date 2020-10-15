@@ -156,6 +156,11 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
                                     })
         print(Info_frutas)
         
+        archivo = pd.read_csv("csv/infofrutas.csv") #Se lee el archivo
+        archivo['Frutas LaComer'] = nombres_frutas[:60] 
+        archivo['Precio Frutas LaComer'] = precios_frutas[:60]
+        archivo.to_csv('csv/infofrutas.csv',encoding = 'utf8',index=False)
+        
     if tipo_pagina == 1:
         # Poniendo la info en pandas
         
@@ -170,6 +175,11 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
                                     })
         print(Info_verduras)
         
+        archivo = pd.read_csv("csv/infoverduras.csv") #Se lee el archivo
+        archivo['Verduras LaComer'] = nombres_verduras[:60] 
+        archivo['Precio Verduras LaComer'] = precios_verduras[:60]
+        archivo.to_csv('csv/infoverduras.csv',encoding = 'utf8',index=False)
+        
     if tipo_pagina == 2:
         # Poniendo la info en pandas
         global nombres_lacteos
@@ -182,6 +192,11 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_lacteos)
+        
+        archivo = pd.read_csv("csv/infolacteos.csv") #Se lee el archivo
+        archivo['Lacteos LaComer'] = nombres_lacteos[:60] 
+        archivo['Precio Lacteos LaComer'] = precios_lacteos[:60]
+        archivo.to_csv('csv/infolacteos.csv',encoding = 'utf8',index=False)
         
     if tipo_pagina == 3:
         # Poniendo la info en pandas
@@ -196,6 +211,11 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
                                     })
         print(Info_carnes)
         
+        archivo = pd.read_csv("csv/infocarnes.csv") #Se lee el archivo
+        archivo['Carnes LaComer'] = nombres_carnes[:60] 
+        archivo['Precio Carnes LaComer'] = precios_carnes[:60]
+        archivo.to_csv('csv/infocarnes.csv',encoding = 'utf8',index=False)
+        
     if tipo_pagina == 4:
         # Poniendo la info en pandas
         global nombres_enlatados
@@ -208,6 +228,12 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
                                       'Precio': precios
                                     })
         print(Info_enlatados)
+                
+        archivo = pd.read_csv("csv/infoenlatados.csv") #Se lee el archivo
+        archivo['Enlatados LaComer'] = nombres_enlatados[:60] 
+        archivo['Precio Enlatados LaComer'] = precios_enlatados[:60]
+        archivo.to_csv('csv/infoenlatados.csv',encoding = 'utf8',index=False)
+
         
         info_lacomer = pd.DataFrame({'Frutas':  nombres_frutas,
                                  'Precio Frutas': precios_frutas,
@@ -224,6 +250,4 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
         crearuta = r'csv' #ruta a crear carpeta
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
         
-        info_lacomer.to_csv('cvs/info_lacomer.csv', encoding = 'utf8')
-
-extraerlacomer()
+        info_lacomer.to_csv('csv/info_lacomer.csv', encoding = 'utf8')
