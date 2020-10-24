@@ -1,16 +1,24 @@
 from kivymd.app import MDApp
 from kivy.lang import Builder
+
 from kivy.uix.screenmanager import Screen
 from baseclass.settingsscreen import SettingsScreen
 from baseclass.utilidades import Banner
+from baseclass.sugerenciasscreen import SugerenciasScreen
+from baseclass.mapacomercios import MapaComercios
+
 from kivymd.uix.datatables import MDDataTable
 import pandas as pd
 from kivy.metrics import dp
 from kivymd.uix.button import MDRectangleFlatButton
 from kivymd.uix.button import MDRectangleFlatIconButton
+from kivymd.uix.button import MDFillRoundFlatButton
+
 from kivymd.uix.button import MDRoundFlatButton
 from kivymd.uix.label import MDLabel
+from kivymd.uix.dialog import MDDialog
 
+import ActualizaPrecios as ap # Pendiente ver como incluir esta parte para actualizar los archivos
 #from kivy.properties import NumericProperty
 
 
@@ -66,12 +74,28 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         super().__init__(**kwargs)
         self.app = MDApp.get_running_app()
         
-       
+        #'FirstScreen' object has no attribute 'theme_cls' ver esto
+        
+        
+        
+        
+        mydialog = MDDialog(title = "Actualizacion de Precios",
+                            text = "Se actualizaran los precios que se muestran en cada una de las categorias del comparador de precios",
+                            size_hint = [.5, .5],
+                            auto_dismiss= True,
+                            
+                            #events_callback =self.my_callback, 
+                            #text_button_ok = "Yes",
+                            #text_button_cancel = "No"
+                
+                            )
+        
         self.buttonactualizar = MDRectangleFlatIconButton(
                                        pos_hint = {"center_x":.5, "top": .95},
                                        #size_hint = (.3,.1),
                                        icon = "cart-arrow-down",
-                                       text = " Precios")
+                                       text = " Precios",
+                                       on_release = mydialog.open)
         
         self.etiqueta1 = MDLabel(text = 'Consultar por Tienda',
                              pos_hint = {"center_x": .5, "top":.80},
@@ -80,39 +104,32 @@ class FirstScreen(Screen): #Pantalla comparador de precios
                              font_style= "Subtitle1",
                              halign = "center")
         
-        self.buttonche = MDRectangleFlatButton(
-                #id = 'botonche',
+        self.buttonche = MDFillRoundFlatButton(
                 pos_hint = {"x": .05, "y": .6},
-                size_hint = (.35,.1),
+                size_hint = (.40,.1),
                 text = "Chedraui",
-                #on_press = print('hola'),
                 on_release = lambda x: self.verboton('che')
                 )        
         
-        self.buttonsor = MDRectangleFlatButton(
-                #id = 'botonsor',
-                pos_hint = {"x": .6, "y": .6},
-                size_hint = (.35,.1),
+        self.buttonsor = MDFillRoundFlatButton(
+                pos_hint = {"x": .55, "y": .6},
+                size_hint = (.40,.1),
                 text = "Soriana",
                 on_release = lambda x: self.verboton('sor')
                 )
         
-        self.buttonhbe = MDRectangleFlatButton(
-                #id = 'botonhbe',
+        self.buttonhbe = MDFillRoundFlatButton(
                 pos_hint = {"x": .05, "y": .45},
-                size_hint = (.35,.1),
-                theme_text_color = "Primary",
+                size_hint = (.40,.1),
+                #theme_text_color = "Primary",
                 text = "HBE",
-                #on_press = print('hola'),
                 on_release = lambda x: self.verboton('hbe')
                 )
         
-        self.buttoncomer = MDRectangleFlatButton(
-                #id = 'botoncomer',
-                pos_hint = {"x": .6, "y": .45},
-                size_hint = (.35,.1),
+        self.buttoncomer = MDFillRoundFlatButton(
+                pos_hint = {"x": .55, "y": .45},
+                size_hint = (.40,.1),
                 text = "La Comer",
-                #on_press = print('hola'),
                 on_release = lambda x: self.verboton('comer')
                 )
         
@@ -123,34 +140,34 @@ class FirstScreen(Screen): #Pantalla comparador de precios
                              font_style= "Subtitle1",
                              halign = "center")
         
-        self.buttonfrutas = MDRoundFlatButton(
+        self.buttonfrutas = MDFillRoundFlatButton(
                                        pos_hint = {"x":.05, "y": .20},
                                        size_hint = (.25,.1),
                                        text = "Frutas",
                                        on_release = lambda x: self.verboton('frutas'))
         
-        self.buttonverduras = MDRoundFlatButton(
+        self.buttonverduras = MDFillRoundFlatButton(
                                        pos_hint = {"x":.35, "y": .20},
                                        size_hint = (.25,.1),
                                        text = "Verduras",
                                        on_release = lambda x: self.verboton('verduras')
                                        )
         
-        self.buttoncarnes = MDRoundFlatButton(
+        self.buttoncarnes = MDFillRoundFlatButton(
                                        pos_hint = {"x":.65, "y": .20},
                                        size_hint = (.25,.1),
                                        text = 'Carnes',
                                        on_release = lambda x: self.verboton('carnes')
                                        )
         
-        self.buttonlacteos = MDRoundFlatButton(
+        self.buttonlacteos = MDFillRoundFlatButton(
                                        pos_hint = {"x":.20, "y": .05},
                                        size_hint = (.25,.1),
                                        text = 'Lácteos',
                                        on_release = lambda x: self.verboton('lacteos')
                                        )
         
-        self.buttonenlatados = MDRoundFlatButton(
+        self.buttonenlatados = MDFillRoundFlatButton(
                                        pos_hint = {"x":.50, "y": .05},
                                        size_hint = (.25,.1),
                                        text = 'Enlatados',
@@ -197,7 +214,7 @@ class FirstScreen(Screen): #Pantalla comparador de precios
             datos = pd.read_csv("csv/infolacteos.csv", encoding = 'utf8')
         elif valor == 'enlatados':
             datos = pd.read_csv("csv/infoenlatados.csv", encoding = 'utf8')
-            
+        
         datos = datos.iloc[:,1: ]# primer arg selecciona todas las filas, segundo 
         cols = datos.columns.values
         values = datos.values
@@ -219,6 +236,11 @@ class FirstScreen(Screen): #Pantalla comparador de precios
 
         self.table.open()
         print(valor)
+        
+    def my_callback(self, texto, popup_widget): # funcion que ayuda a cerrar el dialog del boton actualizar
+        print(texto)
+        print(popup_widget)
+        
     
     def open_table(self, instance):
         #screen.add_widget(table)
@@ -233,7 +255,6 @@ class FirstScreen(Screen): #Pantalla comparador de precios
     
     def on_pre_enter(self, *args):
         self.app.title = "Comparador de precios"
-    
     pass
         
 class MyApp(MDApp):

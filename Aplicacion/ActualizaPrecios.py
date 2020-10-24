@@ -9,7 +9,7 @@ import Scrapping_lacomer as comer
 import Scrapping_sor as sor
 
 
-if __name__=='__main__':
+def main():
     
     crearuta = r'csv' #ruta a crear carpeta donde guardar documentos csv
     if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
@@ -35,3 +35,5 @@ if __name__=='__main__':
     thread4 = threading.Thread(target = sor.datossor) #Inicializar un hilo llamando a una funcion
     thread4.start()
     
+if __name__ == '__main__':
+    main()    

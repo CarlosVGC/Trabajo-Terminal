@@ -1,72 +1,72 @@
 ,Frutas,Precio Frutas,Verdura,Precio Verduras,Lacteos,Precio Lacteos,Carne,Precio Carnes,Enlatados ,Precio Enlatados
-0,Naranja para Jugo Kg,19.9,Alcachofa Granel Kg,149.5,Leche Alpura Clásica Pasteurizada 1L,19.1,Codillo Chamorro de Cerdo kg,44.9,Chiles Carey Chipotles Adobados 215g,8.5
-1,Ciruela Kg,49.9,Esparrago Pieza 454 Gr,74.9,Frutal Fresa Alpura 250ml,7.45,Molida Selecta de Res kg,139.0,Zanahorias en Escabeche Del Monte 390g,14.65
-2,Manzana Royal Gala Kg,34.8,Aguacate Hass Enmallado pz,27.8,Frutal Durazno Alpura 250ml,7.45,Retazo con Hueso para caldo de res,69.9,Chiles Chilpotles Del Monte Adobados 205g,16.35
-3,Caña Kg,18.9,Papa Blanca Granel Kg,22.9,Frutal Piña-Coco Alpura 250ml,7.45,ARTMOD Carnes Res,62.0,Rajas Jalapeño Buen Origen Orgánicas Oval 440g,25.03
-4,Tejocote Kg,39.9,Cebolla Blanca,39.9,Yoghurt Alpura Batido Fresa 125g,4.45,Rib Eye de Res Carnes ViBa 340g,125.0,Nachos Jalapeño Buen Origen Orgánicos Oval 440g,39.5
-5,Piloncillo Granel Kg,55.0,Aguacate Atlixco Kg,58.0,Yoghurt Alpura Batido Durazno 125g,4.45,Carne de Cerdo tipo Trompo Mi Granja San Agustín 500g,44.9,Chicharrón de Chile Don Chacho Habanero 140 g,97.0
-6,Jamaica Granel Kg,185.0,Papa Rosada Granel Kg,40.2,Yoghurt Alpura Batido Mango 125g,4.45,Salchichas Aires de Campo de Pollo Orgánico 400g,99.0,Chilitos Gueritos La Norteña Pouch 230g,21.0
-7,Naranja Paramount Kg,59.9,Cebolla De Rabo Granel Kg,29.9,Yoghurt Alpura Batido Manzana 125g,4.45,Hamburguesa Aires de Campo de Pollo Orgánica 6 Piezas,180.0,Chipotles San Marcos Adobados Enteros 380g,27.9
-8,Lima De Chiche Kg,37.0,Tomatillo Granel Kg,48.0,Yoghurt Alpura Batido Zarzamora 125g,5.1,Nugget Aires de Campo de Pollo Orgánico 700g,199.0,Chipotles San Marcos Molidos 215g,17.5
-9,Toronja Kg,8.5,Papa Cambray Granel Kg,26.9,Yoghurt Alpura Batido Frutos del Bosque 125g,5.1,Pechuga Sin Hueso Pollo Cong Kg,59.9,Jalapeño La Morena 800g,24.9
-10,Limón Eureka Paramount Kg,54.9,Cebolla De Cambray Pz,9.9,Yoghurt Alpura Batido Piña-Coco del Bosque 125g,4.45,Alitas Marinadas Congeladas de Pollo kg,72.9,Chiles Clemente Jacques Chipotles 220g,17.0
-11,Limón Colima Kg,37.9,Tomate Saladet Granel Kg,29.9,Yoghurt Alpura Batido Natural 125g,5.1,Milanesa Nutrypol Pech Pol Doupack Kg,147.0,Chiles Divina De Calabria 260 Gr,179.0
-12,Naranja Arpilla 5 Kg,49.0,Tomate Bola Granel Kg,29.9,Yoghurt Alpura Batido Guayaba 125g,5.1,Carne Nutrypol al Pastor 500 gr,73.9,Chiles Güeros Lol Tun Carricillos 350 gr,24.0
-13,Limón Sin Semilla Kg,19.9,Cebolla Perla Roja C Ranch,72.9,Leche Lala Fresca Entera 1 Lt,19.45,Fajitas Nutrypol Pech Hierba Fina 500 gr,83.9,Chiles Jalapeños La Costeña Enteros 780g,26.9
-14,Mandarina Kg,19.9,Cebolla Perla Blanca C Ranch,72.9,Leche Lala Deslactosada 1 Lt,22.2,Fajitas Nutrypol Pechuga Jalapeño 500 gr,83.9,Chiles Clemente Jacques Habaneros Molidos 220g,20.0
-15,Pera Bosc Kg,64.9,Cebolla Perla Dorada C Ranch,72.9,Leche Lala Mango Saborizada 1 Lt,19.5,Pollo Asar Pilgrims IQF Sobor Cerveza 1,44.9,Chiles Clemente Jacques Jalapeños Enteros 380g,13.0
-16,Pera Asiatica Kg,64.9,Jitomate Hidrocool Cherry 380g,30.3,Leche Lala Fresa Saborizada 1 Lt,19.5,Trozos Pech Pilgrims IQF Grill 500 gr,22.0,Chiles Clemente Jacques Jalapeños Rajas 380g,13.0
-17,Pera Seckel Kg,77.9,Tomate Cherry Glorys NatureSweet 283g,41.7,Leche Lala Pasteurizada Entera 1.80 Lt,30.2,Alas Pilgrims IQF Adobadas 500 gr,22.0,Chiles Clemente Jacques Chipotles Dulces Gourmet 220g,25.9
-18,Ciruela Huesuda Kg,39.9,Tomate Uva Cherubs NatureSweet 283g,41.7,Leche Lala Past Light 1.80 Lt,34.0,Chamorritos Pilgrims IQF Pizza 460 gr,26.9,Chiles Clemente Jacques Habaneros Rodajas Gourmet 220g,19.0
-19,Pera Mantequilla Kg,44.9,Cebollin Pz,9.9,Leche Lala Past Deslac 2% 1.80 Lt,34.5,Chamorritos Pilgrims IQF Chamoy 460 gr,26.9,Chiles El Mexicano Jalapeños Enteros 340g,13.5
-20,Pera Bartlett Kg,49.5,Tomate Verde Granel Kg,22.9,Leche Lala Pas Desla Sem 1.80 Lt,36.9,Chamorritos Pilgrims IQF Nachiqueso 460,26.9,Chiles El Mexicano Jalapeños en Rajas 800g,27.7
-21,Durazno Rojo Kg,69.0,Aguacate Chiapas Kg,39.9,Leche Lala Orgánica Pasteurizada 1 lt,25.5,Muslos Pilgrims IQF Adobadas 500 gr,22.0,Chiles El Mexicano Jalapeños en Rajas 340g,15.7
-22,Kiwi Kg,79.9,Cebolla Amarilla Granel Kg,28.8,Leche Lala Fresca Premium 3.8 Lt,65.5,Filete de Pescado Marinado Pimienta Limón Rivera 500g,106.0,Chiles El Mexicano Jalapeños en Rajas 220g,10.0
-23,Nectarina Kg,79.9,Cebolla Morada Granel Kg,34.9,Leche Lala Pasteurizada Light 1 Gal,70.5,Filete Pescado Marinado al Ajillo Rivera 500g,93.85,Chiles El Mexicano Jalapeños en Nachos 380g,14.9
-24,Pera Comice Kg,99.9,Papa Cambray Rosada   Kg,37.5,Leche Lala 100 Fresca sin Lac Sem 1 lt,25.7,Sopa de Mariscos Gourmet Rivera 500g,126.0,Chiles El Mexicano Jalapeños Enteros 780g,25.2
-25,Durazno Amarillo Kg,59.7,Aguacate Hass Granel Kg,34.8,Leche Lala 100 Past Red Gra 330 ml,11.9,Filete Tilapia Natural Rivera 600g,106.0,Chiles El Mexicano Chipotle Adobado 215g,16.7
-26,Manzana Kg Jazz,54.9,Rabano Largo Rollo,23.7,Leche Lala 100 Fresca Semidescremada 1 l,25.7,Filete Rivera Tilapia Quinoa . 500 g,109.0,Chiles El Mexicano Chipotle Adobado 380g,29.5
-27,Manzana Lady Alice Kg,75.4,Hierbabuena Rollo,10.2,Leche Lala 100 Fresca sin Lac Red Gra 1,25.7,Filete Tilapia a la Talla Rivera 600g,110.0,Jalapeño La Morena 380g,14.9
-28,Manzana Golden Bolsa Chica 600 Gr,18.9,Manzanilla Rollo,13.1,Leche Lala 100 Fresca Red Gra 1 lt,25.7,Robalo Gourmet Rivera 500g,325.0,Chipotles Adobo La Morena  380g,32.5
-29,Manzana Golden Mediana Kg,34.8,Epazote Rollo,12.7,Leche Lala 100 Past Semidescrem 330 ml,11.9,Filete Tilapia Natural Rivera 1 Kg,173.0,Rajas Verdes La Morena  380g,18.0
-30,Manzana Roja Chica Bolsa Kg,24.8,Apio Granel Kg,16.9,Leche Lala 100 Past Entera 1 lt,25.7,Filete Pescado Marinado al Ajillo Rivera 1 Kg,183.0,Jalapeños Nachos La Morena  210g,10.2
-31,Manzana Roja Mediana Kg,34.8,Salsifi,175.29,Leche Lala Deslactosada UHT 1Lt Six Pac,105.0,Bacalao Charola Lomos Sin Piel 1 Kg,99.0,Chipotles Adobo La Morena 265g,23.5
-32,Manzana Granny Smith Kg,47.9,Zanahoria Cambray Con Rabo,266.7,Leche Pasteurizada Monarca 1Lt,17.0,Fileton de Bacalao Mexideli,99.0,Rajas Verdes La Morena 265g,8.9
-33,Manzana Royal Gala BolsaKg,26.9,Quintoniles,37.0,Leche Lala Fresca Light 1 Lt,19.45,BacalaoDesmenuzado Premium Kg,99.0,Jalapeños La Morena 265g,7.5
-34,Manzana Golden Chica en Bolsa por Kilo,18.5,Raiz Fuerte,920.0,Alimento Líquido Soy Vita Almendra 960 m,36.5,Bacalao Noruego Con Piel Gadus Morhua Kg,99.0,Rajas San Marcos verdes 120g,5.5
-35,Zarzamora Pz,39.9,Hoja de Chaya  kg,12.5,Leche Lala Café Deslactosada 1 lt 1Pz,23.5,Tentáculos de Calamar por kg,99.9,Jalapeños San Marcos Enteros 780g,25.0
-36,Uva Verde Kg,49.9,Camote Blanco . . Kg,26.2,Alimento Líquido Soy Vita 3 nueces 960 m,36.5,Filete Basa Rojo por kg,74.9,Jalapeños San Marcos Enteros 255g,7.0
-37,Uva Globo Kg Emperador,44.9,Recado  kg,57.0,Leche Lala Siluette Plus Deslact 960 ml,21.5,Basa en Trozo para Caldo por Kg,64.9,Jalapeños San Marcos Enteros 380g,13.5
-38,Uva Negra Sin Semilla Kg,89.9,Verdolaga Granel Kg,24.6,Leche Lala UTH Deslactosada Semi 1.5 lt,31.05,Fajita Tpo Arrachera Marin Res Diablo Kg,99.9,Rajas San Marcos Verdes 380g,16.85
-39,Uva Roja Sin Semilla Kg,69.0,Raiz De Azafran Granel Kg,38.7,Alimento Líquido Soy Vita Coco 960 Milil,35.9,Picana Estabulada Res kg,249.0,Chipotles San Marcos Adobados Enteros 120g,8.55
-40,Blue Berry Pz,49.9,Chicharo Granel Kg,57.1,Leche Lala Entera UHT 1.5 Lt Slim c/Tap,29.45,Tazajo Salado Zaachila Res Kg,197.0,Rajas Verdes La Morena  2800g,99.8
-41,Fresa Pz,75.0,Ejote Granel Kg,44.9,Leche Lala Deslac Baja en Grasa UHT 1.5,30.85,Cabeza De Res C/Hueso Kg,49.0,Chiles Serranos La Costeña Enteros en Escabeche 220g,11.8
-42,Frambuesa Domo 170 gr,44.9,Betabel Granel Kg,15.8,Leche Lala Baja en Grasa UHT 1Lt Six Pac,111.5,Riñon De Res Kg,27.9,Chiles Chipotles La Costeña Adobados 380g,31.1
-43,Piña Gota Miel Kg,22.9,Habas Granel Kg,51.6,Leche Lala Desl Baja Grasa UHT 1Lt Six,113.0,Bistec Sonora Res Kg,229.0,Chiles Nachos Jalapeños La Costeña Rodajas 380g,17.5
-44,Sandia Blanca Rayada Kg,8.8,Chayote Cambray Granel Kg,44.4,Leche Lala Entera UHT 1Lt Six Pack C/T,112.0,Salchicha Roja Oaxaqueña Res Kg,98.0,Chiles Jalapeños La Costeña Picados 380g,23.7
-45,Mango Oro Kg,35.5,Betabel Cambray Con Rabo,14.12,Leche Lala Semidescremada UHT 1Lt Six P,113.0,Cecina Pulpa Negra Res Cv Kg,189.0,Zanahoria La Costeña en Escabeche 230g,9.2
-46,Coco Pz,19.2,Huaje,40.0,Leche UHT Lala Orgánica Entera 1 Litros,24.0,Milanesa de Res Kg,168.0,Chiles Nachos Jalapeños La Costeña Rodajas 220g,11.5
-47,Mango Paraíso  Kg,24.9,Zanahoria Cambray,14.12,Alim Liq Lala Vita UHT Choc 330 Mililitr,16.0,Molida de Pulpa Negra Res Premium Kg,164.0,Chiles Chipotles La Costeña Adobados 220g,16.35
-48,Mango Ataulfo Kg,49.9,Bulbo De Hinojo,144.9,Alim Líquido Lala Vita UHT Proteina 330,19.9,Filete Tampiquena Res kg,419.0,Chiles Chipotles La Costeña Adobados Picados 220g,22.9
-49,Platano Dominico Kg,38.3,Poro Pz,20.7,Alim Liq Lala Vita Arroz 960 Mililitros,41.9,Molida Res Kosher kg,239.0,Chiles Jalapeños La Costeña en Rajas 105g,6.5
-50,Sandia Sin Semilla Kg,15.1,Rábano Cambray PIEZA,13.2,Alim Liq Lala Vita Amaranto 960 Mililitr,37.5,Chambarete sin Hueso Res Kosher kg,254.0,Chiles Chipotles La Costeña Adobados 105g,10.95
-51,Tuna Kg,17.9,Perejil Liso Rollo,9.9,Leche Lala Yomi Choco 190 Ml 3 Piezas,17.5,Milanesa Bola de Res kg,178.0,Chiles Nachos Jalapeños La Costeña Rodajas 800g,31.0
-52,Mango Manila Kg,39.9,Espinacas Rollo,8.9,Leche Lala Yomi Chocolate Red Azuc 190 M,6.0,Suadero Res kg,147.0,Chiles La Costeña Rajas Rojas de Jalapeño 220g,12.6
-53,Coco Nutribits Rebanado 350g,41.2,Cilantro Rollo,6.9,Leche Lala Yomi Fresa Red Azuc 190 Mili,6.0,Tampiqueña Res Kosher kg,264.0,Chiles Jalapeños La Costeña Enteros 240g,9.7
-54,Plátano Chiapas,9.9,Col Blanca Granel Kg,16.9,Leche Lala Yomi Vainilla Red Azuc 190 M,6.0,Pulpa Trozos Res kg,159.0,Chiles Jalapeños La Costeña en Rajas 240g,9.8
-55,Platano Macho Kg,25.9,Flor De Calabaza Granel Kg,108.3,Leche UHT Lala 100 Deslac Fresa 330 Mil,14.9,Pulpa Res Kosher kg,261.0,Chiles Serranos La Costeña Enteros en Escabeche 800g,36.9
-56,Guayaba Kg,23.9,Col Morada Granel Kg,19.1,Leche Yomi Lala Chocolate UHT 1 lt 1Pz,22.9,Tampiqueña para asar de Pulpa Negra Kg,194.0,Chiles Jalapeños La Costeña Enteros 340g,14.5
-57,Melon Chino Kg,24.9,Berenjena Granel Kg,84.5,Leche Yomi Lala Fresa UHT 1 Litros 1 Pz,22.9,Escalopas Filete Estabulado Res kg,419.0,Chiles Jalapeños La Costeña en Rajas 340g,18.1
-58,Melon Amarillo Kg,38.5,Coliflor Pre Enfriada Pz,39.9,Leche Yomi Lala Vainilla UHT 1 lt 1Pz,22.9,Panza Cocida Res Kg,74.0,Chiles Jalapeños La Costeña Picados 220g,12.8
-59,Papaya Maradol Kg,26.9,Zanahoria Granel Kg,13.9,Leche UHT Lala 100 Deslac Vainilla 330,14.9,Pata Picada Cocida Res Kg,44.0,Rajas San Marcos verdes 255g,8.5
-60,Granada China Kg,84.3,Salvia fresca Tiempo de Cosecha 50g,22.9,Leche UHT Lala 100 Cacao Deslac 330 Mili,14.9,Pata Cruda Res Kg,59.0,Chipotles San Marcos en Escabeche 215g,21.1
-61,Chicozapote Kg,60.1,Cilantro fresco Tiempo de Cosecha 50g,19.9,Leche Lala 100 Entera Sin Lactosa 1 Litr,25.7,Cortadillo Res kg,174.0,Chipotles San Marcos Adobados Enteros 255g,19.0
-62,Mamey Kg,36.4,Té de Limón fresco Tiempo de Cosecha 50g,22.9,Leche Lala Orgánica Deslactosada UHT 1 L,23.5,Molida Mixta Res/Cerdo kg,134.0,2 Pack Chipotle San Marcos,19.9
-63,Pitahaya Granel Kg,89.1,Bouquet Garni frescas Tiempo de Cosecha 50g,22.9,Leche Lala 100 Sin Lactosa 1 Litros,24.95,Molida fina de Res 95/5 kg,172.0,Chile Jalapeño La Costeña Picados Lata 1,7.3
-64,Granada Roja Kg,45.3,Tomillo fresco Tiempo de Cosecha 50g,22.9,Leche Lala 100 Sin Lactosa Reducida en G,25.7,Milanesa Res Kosher kg,264.0,Chiles El Mexicano Jalapeños Enteros 220g,8.0
-65,Guanabana Kg,49.9,Epazote fresco Tiempo de Cosecha 50g,22.9,Leche Lala 100 Semidescremada 1 Litros,25.7,Chuleta de Ternera Blanca kg,299.4,Chiles Selecto Brand Jalapeños Enteros 340g,12.5
-66,Membrillo Kg,47.9,Ruda fresca Tiempo de Cosecha 50g,22.9,Leche Lala 100 Reducida en Grasa 1 lt,25.7,Milanesa de Ternera Blanca kg,318.9,Chiles Habaneros Salsas Doña Jose en Escabeche 300g.,95.0
-67,Sweet Shishito Peppers bolsa 454 gr,64.9,Hinojo Fresco Clam 50 g,22.9,Leche Lala Café Deslac UHT 330 Mililitro,13.5,Pulpa de Ternera Blanca kg,318.9,Chiles Chipotles Lucero Adobados 290g,27.3
-68,Aderezo de Albahaca Verde Botella 250 ml,44.9,Yerbabuena fresca Tiempo de Cosecha 50g,22.9,Leche Lala Fresca Premium 1 Lt,19.5,Aguja Larga de Res P/Asar kg,129.0,Chile Chipotle La Morena Adobado Lata 14,13.8
-69,Aderezo De Eneldo botella 250 ml,44.9,Bouquet Hierbas Finas frescas Tiempo de Cosecha 50g,22.9,Leche Lala Entera Ultrapast 1 Lt,22.4,Diezmillo/Asado Tira Sonora Res Kg,284.0,Chiles Rellenos Picadillo La Morena  380g,36.5
-70,Chimichurri Con Hierbas Frasco 175 g,39.9,Alfalfa fresca Tiempo de Cosecha 50g,22.9,Leche Lala Semi Ultra Pasteurizada 1Lt,22.5,Vacío de Res por kg,169.0,Chiles Rellenos Queso La Morena  380g,27.0
+0,Plátano Chiapas,11.9,Alcachofa Granel Kg,149.5,Leche Alpura Clásica Pasteurizada 1L,19.1,Pierna y Muslo Americano Fresco de Pollo kg,25.9,Chiles Carey Chipotles Adobados 215g,8.5
+1,Limón Sin Semilla Kg,17.9,Esparrago Pieza 454 Gr,74.9,Frutal Fresa Alpura 250ml,7.45,Codillo Chamorro de Cerdo kg,47.0,Chipotles San Marcos Adobados Enteros 380g,27.9
+2,Toronja Kg,19.9,Aguacate Hass Enmallado pz,27.9,Frutal Durazno Alpura 250ml,7.45,Molida Selecta de Res kg,144.0,Chipotles San Marcos Molidos 215g,17.5
+3,Mandarina Kg,21.9,Papa Blanca Granel Kg,26.9,Frutal Piña-Coco Alpura 250ml,7.45,Retazo con Hueso para caldo de res,89.0,Chiles Clemente Jacques Jalapeños Rajas 220g,8.0
+4,Naranja Paramount Kg,59.9,Cebolla Blanca,39.9,Yoghurt Alpura Batido Fresa 125g,4.45,Molida de Res kg,68.9,Jalapeño La Morena 800g,24.9
+5,Naranja para Jugo Kg,29.5,Aguacate Atlixco Kg,58.0,Yoghurt Alpura Batido Durazno 125g,4.45,ARTMOD Carnes Res,62.0,Chiles Clemente Jacques Chipotles 220g,17.0
+6,Lima De Chiche Kg,37.0,Cebolla De Rabo Granel Kg,29.9,Yoghurt Alpura Batido Mango 125g,4.45,Hamburguesa vegetal 227g,99.0,Zanahorias en Escabeche Del Monte 390g,14.65
+7,Limón Eureka Paramount Kg,54.9,Tomatillo Granel Kg,47.9,Yoghurt Alpura Batido Manzana 125g,4.45,Molida Vegetal 456g,174.0,Chiles Chilpotles Del Monte Adobados 205g,16.35
+8,Limón Colima Kg,34.9,Papa Cambray Granel Kg,26.9,Yoghurt Alpura Batido Zarzamora 125g,5.1,Rib Eye Viba Res 340g,125.0,Rajas Jalapeño Buen Origen Orgánicas Oval 440g,25.03
+9,Naranja Arpilla 5 Kg,55.0,Papa Rosada Granel Kg,40.2,Yoghurt Alpura Batido Frutos del Bosque 125g,5.1,Bistec Pulpa Blanca de Res kg,144.0,Nachos Jalapeño Buen Origen Orgánicos Oval 440g,39.5
+10,Pera Bosc Kg,64.9,Tomate Saladet Granel Kg,34.9,Yoghurt Alpura Batido Piña-Coco 125g,4.45,Milanesa de Res Kg,144.0,Chicharrón de Chile Don Chacho Serrano 140 g,97.0
+11,Pera Asiatica Kg,64.9,Cebolla De Cambray Pz,9.9,Yoghurt Alpura Batido Natural 125g,5.1,Carne de Cerdo tipo Trompo Mi Granja San Agustín 500g,44.9,Chicharrón de Chile Don Chacho Jalapeño 140 g,97.0
+12,Pera Seckel Kg,77.9,Tomate Bola Granel Kg,34.9,Yoghurt Alpura Batido Guayaba 125g,5.1,Milanesa Nutrypol Pech Pol Doupack Kg,147.0,Chicharrón de Chile Don Chacho Habanero 140 g,97.0
+13,Ciruela Huesuda Kg,39.9,Cebolla Perla Roja C Ranch,72.9,Leche Lala Deslactosada UHT 1Lt Six Pac,105.0,Hamburguesa Aires de Campo de Pollo Orgánica 6 Piezas,180.0,Chilitos Gueritos La Norteña Pouch 230g,21.0
+14,Ciruela Kg,69.9,Cebolla Perla Blanca C Ranch,72.9,Leche Lala Fresca Entera 1 Lt,19.45,Nugget Aires de Campo de Pollo Orgánico 700g,199.0,Chiles Jalapeños La Costeña Enteros 780g,26.9
+15,Pera Mantequilla Kg,44.9,Cebolla Perla Dorada C Ranch,72.9,Leche Lala Deslactosada 1 Lt,22.2,Carne Nutrypol al Pastor 500 gr,73.9,Chiles Clemente Jacques Chipotles Molidos 220g,16.0
+16,Pera Bartlett Kg,49.5,Jitomate Hidrocool Cherry 380g,30.3,Leche Lala Mango Saborizada 1 Lt,19.5,Fajitas Nutrypol Pech Hierba Fina 500 gr,83.9,Chiles Güeros Lol Tun Carricillos 350 gr,24.0
+17,Durazno Rojo Kg,59.9,Tomate Cherry Glorys NatureSweet 283g,41.7,Leche Lala Fresa Saborizada 1 Lt,19.5,Fajitas Nutrypol Pechuga Jalapeño 500 gr,83.9,Chiles Divina De Calabria 260 Gr,179.0
+18,Kiwi Kg,79.9,Tomate Uva Cherubs NatureSweet 283g,41.7,Leche Lala Pasteurizada Entera 1.80 Lt,30.2,Salchichas Aires de Campo de Pollo Orgánico 400g,99.0,2 Pack Chipotle San Marcos,19.9
+19,Nectarina Kg,79.9,Cebollin Pz,9.9,Leche Lala Past Light 1.80 Lt,34.0,Pollo Asar Pilgrims IQF Sobor Cerveza 1,44.9,Chile Jalapeño La Costeña Picados Lata 1,7.3
+20,Pera Comice Kg,99.9,Tomate Verde Granel Kg,22.9,Leche Lala Past Deslac 2% 1.80 Lt,34.5,Alas Pilgrims IQF Adobadas 500 gr,22.0,Chiles El Mexicano Jalapeños Enteros 220g,8.0
+21,Durazno Amarillo Kg,54.7,Aguacate Chiapas Kg,39.9,Leche Lala Pas Desla Sem 1.80 Lt,36.9,Chamorritos Pilgrims IQF Pizza 460 gr,26.9,Chiles Selecto Brand Jalapeños Enteros 340g,12.5
+22,Manzana Kg Jazz,54.9,Cebolla Amarilla Granel Kg,27.9,Leche Lala Orgánica Pasteurizada 1 lt,25.5,Chamorritos Pilgrims IQF Chamoy 460 gr,26.9,Chiles Habaneros Salsas Doña Jose en Escabeche 300g.,95.0
+23,Manzana Golden Chica en Bolsa por Kilo,29.9,Cebolla Morada Granel Kg,34.9,Leche Lala Fresca Premium 3.8 Lt,65.5,Chamorritos Pilgrims IQF Nachiqueso 460,26.9,Chiles Chipotles Lucero Adobados 290g,27.3
+24,Manzana Lady Alice Kg,75.4,Papa Cambray Rosada   Kg,37.7,Leche Lala Pasteurizada Light 1 Gal,70.5,Filete de Pescado Marinado Pimienta Limón Rivera 500g,106.0,Chile Chipotle La Morena Adobado Lata 14,13.8
+25,Manzana Golden Bolsa Chica 600 Gr,18.9,Aguacate Hass por Kg,49.9,Leche Lala 100 Fresca sin Lac Sem 1 lt,25.7,Filete Pescado Marinado al Ajillo Rivera 500g,93.85,Chiles Rellenos Picadillo La Morena  380g,36.5
+26,Manzana Royal Gala Kg,49.5,Rabano Largo Rollo,23.7,Leche Lala 100 Past Red Gra 330 ml,11.9,Sopa de Mariscos Gourmet Rivera 500g,126.0,Chiles Rellenos Queso La Morena  380g,27.0
+27,Manzana Golden Mediana Kg,34.9,Hierbabuena Rollo,10.2,Leche Lala 100 Fresca Semidescremada 1 l,25.7,Filete Tilapia Natural Rivera 600g,106.0,Jalapeños San Marcos Picados 380g,20.5
+28,Manzana Roja Chica Bolsa Kg,34.9,Manzanilla Rollo,13.1,Leche Lala 100 Fresca sin Lac Red Gra 1,25.7,Filete Rivera Tilapia Quinoa . 500 g,109.0,Chipotle San Marcos Escabeche Lat 380Gr,37.0
+29,Manzana Roja Mediana Kg,39.9,Epazote Rollo,12.7,Leche Lala 100 Fresca Red Gra 1 lt,25.7,Robalo Gourmet Rivera 500g,325.0,Chiles  Avante en Escabeche Semidulces 225g.,28.9
+30,Manzana Granny Smith Kg,47.9,Apio Granel Kg,16.5,Leche Lala 100 Past Semidescrem 330 ml,11.9,Filete Tilapia Natural Rivera 1 Kg,173.0,Chiles  Avante en Escabeche Semidulces 365g.,42.0
+31,Manzana Royal Gala BolsaKg,36.9,Camote Morado Granel Kg,49.9,Leche Lala Fresca Light 1 Lt,19.45,Filete Pescado Marinado al Ajillo Rivera 1 Kg,183.0,Chiles Carey Jalapeños Enteros en Escabeche 215g,6.0
+32,Zarzamora Pz,39.9,Hoja de Chaya  kg,12.5,Leche Pasteurizada Monarca 1Lt,17.0,Filete Tilapia a la Talla Rivera 600g,110.0,Chiles Carey Rajas Verdes de Jalapeño en Escabeche 215g,8.0
+33,Uva Verde Kg,69.0,Camote Blanco . . Kg,26.2,Alimento Líquido Soy Vita Almendra 960 m,36.5,Pato Entero kg,178.0,Chiles Carey Jalapeños Enteros en Escabeche 380g,10.9
+34,Uva Globo Kg Emperador,69.0,Recado  kg,57.0,Leche Lala Café Deslactosada 1 lt 1Pz,23.5,Filete de Tilapia por Kg,89.9,Chiles Carey Rajas Verdes de Jalapeño en Escabeche 800g,25.9
+35,Uva Negra Sin Semilla Kg,89.9,Raiz De Azafran Granel Kg,38.6,Alimento Líquido Soy Vita 3 nueces 960 m,36.5,Camarón Pacotilla Coctelero por kg,149.0,Chiles Carey Rajas Verdes de Jalapeño en Escabeche 380g,12.9
+36,Uva Roja Sin Semilla Kg,69.0,Chicharo Granel Kg,64.3,Leche Lala Siluette Plus Deslact 960 ml,21.5,Camarón U12 por Kg,549.0,Chiles Carey Chipotles Adobados 380g,24.9
+37,Blue Berry Pz,49.9,Ejote Granel Kg,44.9,Leche Lala UTH Deslactosada Semi 1.5 lt,31.05,Camarón U15 por Kg,449.0,Chiles Carey Jalapeños Enteros en Escabeche 780g,23.0
+38,Fresa Pz,75.0,Betabel Granel Kg,15.7,Alimento Líquido Soy Vita Coco 960 Milil,35.9,Filete de Salmón Pacifico por Kg,299.0,Chiles Cary Nachos de Jalapeño en Escabeche 380g,17.35
+39,Frambuesa Domo 170 gr,44.9,Habas Granel Kg,50.8,Leche Lala Entera UHT 1.5 Lt Slim c/Tap,29.45,Fajita Tpo Arrachera Marin Res Diablo Kg,99.9,Chiles Cary Nachos de Jalapeño en Escabeche 800g,26.3
+40,Mango Oro Kg,35.5,Chayote Cambray Granel Kg,43.6,Leche Lala Deslac Baja en Grasa UHT 1.5,30.85,Churrasco Estabulado Res kg,209.0,Jalapeños Hab Tun Escabeche Fsc 238Gr,20.5
+41,Coco Pz,19.2,Betabel Cambray Con Rabo,14.12,Leche Lala Baja en Grasa UHT 1Lt Six Pac,111.5,Picana Estabulada Res kg,249.0,Chiles Clemente Jacques Habaneros Molidos 220g,20.0
+42,Mango Paraíso  Kg,29.9,Huaje,40.0,Leche Lala Desl Baja Grasa UHT 1Lt Six,113.0,Cow boy choice Angus Res kg,499.0,Chiles Clemente Jacques Jalapeños Enteros 380g,13.0
+43,Mango Ataulfo Kg,49.9,Zanahoria Cambray,14.12,Leche Lala Entera UHT 1Lt Six Pack C/T,112.0,Rib Eye Choice Res kg,549.0,Chiles Clemente Jacques Jalapeños Rajas 380g,13.0
+44,Platano Dominico Kg,38.3,Bulbo De Hinojo,144.9,Leche Lala Semidescremada UHT 1Lt Six P,113.0,Filete Tampiquena Res kg,419.0,Chiles Clemente Jacques Chipotles Dulces Gourmet 220g,25.9
+45,Sandia Sin Semilla Kg,15.1,Salsifi,175.29,Leche UHT Lala Orgánica Entera 1 Litros,24.0,Molida Res Kosher kg,239.0,Chiles Clemente Jacques Habaneros Rodajas Gourmet 220g,19.0
+46,Papaya Maradol Kg,26.9,Zanahoria Cambray Con Rabo,266.7,Alim Liq Lala Vita UHT Choc 330 Mililitr,16.0,Chambarete sin Hueso Res Kosher kg,254.0,Chiles El Mexicano Jalapeños Enteros 340g,13.5
+47,Tuna Kg,17.9,Quintoniles,37.0,Alim Líquido Lala Vita UHT Proteina 330,19.9,Milanesa Bola de Res kg,178.0,Chiles El Mexicano Jalapeños en Rajas 800g,27.7
+48,Mango Manila Kg,39.9,Raiz Fuerte,920.0,Alim Liq Lala Vita Arroz 960 Mililitros,41.9,Suadero Res kg,147.0,Chiles El Mexicano Jalapeños en Rajas 340g,15.7
+49,Piña Gota Miel Kg,26.9,Verdolaga Granel Kg,24.6,Alim Liq Lala Vita Amaranto 960 Mililitr,37.5,Tampiqueña Res Kosher kg,264.0,Chiles El Mexicano Jalapeños en Rajas 220g,10.0
+50,Platano Macho Kg,26.9,Poro Pz,20.7,Leche Lala Yomi Choco 190 Ml 3 Piezas,17.5,Pulpa Trozos Res kg,159.0,Chiles El Mexicano Jalapeños en Nachos 380g,14.9
+51,Guayaba Kg,34.9,Rábano Cambray PIEZA,13.2,Leche Lala Yomi Chocolate Red Azuc 190 M,6.0,Pulpa Res Kosher kg,261.0,Chiles El Mexicano Jalapeños Enteros 780g,25.2
+52,Sandia Blanca Rayada Kg,11.5,Perejil Liso Rollo,9.9,Leche Lala Yomi Fresa Red Azuc 190 Mili,6.0,Tampiqueña para asar de Pulpa Negra Kg,194.0,Chiles El Mexicano Chipotle Adobado 215g,16.7
+53,Melon Chino Kg,26.9,Espinacas Rollo,8.9,Leche Lala Yomi Vainilla Red Azuc 190 M,6.0,Escalopas Filete Estabulado Res kg,419.0,Chiles El Mexicano Chipotle Adobado 380g,29.5
+54,Melon Amarillo Kg,38.0,Cilantro Rollo,6.9,Leche UHT Lala 100 Deslac Fresa 330 Mil,14.9,Panza Cocida Res Kg,74.0,Jalapeño La Morena 380g,14.9
+55,Granada China Kg,84.3,Col Blanca Granel Kg,16.9,Leche Yomi Lala Chocolate UHT 1 lt 1Pz,22.9,Pata Picada Cocida Res Kg,44.0,Chipotles Adobo La Morena  380g,32.5
+56,Chicozapote Kg,59.8,Col Morada Granel Kg,19.1,Leche Yomi Lala Fresa UHT 1 Litros 1 Pz,22.9,Pata Cruda Res Kg,59.0,Rajas Verdes La Morena  380g,18.0
+57,Mamey Kg,36.4,Flor De Calabaza Granel Kg,108.3,Leche Yomi Lala Vainilla UHT 1 lt 1Pz,22.9,Cortadillo Res kg,174.0,Jalapeños Nachos La Morena  210g,10.2
+58,Pitahaya Granel Kg,89.1,Berenjena Granel Kg,81.0,Leche UHT Lala 100 Deslac Vainilla 330,14.9,Molida Mixta Res/Cerdo kg,134.0,Chipotles Adobo La Morena 265g,23.5
+59,Granada Roja Kg,45.3,Coliflor Pre Enfriada Pz,39.9,Leche UHT Lala 100 Cacao Deslac 330 Mili,14.9,Molida fina de Res 95/5 kg,172.0,Rajas Verdes La Morena 265g,8.9
+60,Guanabana Kg,49.9,Zanahoria Granel Kg,14.5,Leche Lala 100 Entera Sin Lactosa 1 Litr,25.7,Milanesa Res Kosher kg,264.0,Jalapeños La Morena 265g,7.5
+61,Caña Kg,19.9,Salvia fresca Tiempo de Cosecha 50g,22.9,Leche Lala Orgánica Deslactosada UHT 1 L,23.5,Chuleta de Ternera Blanca kg,299.4,Rajas San Marcos verdes 120g,5.5
+62,Membrillo Kg,47.9,Cilantro fresco Tiempo de Cosecha 50g,19.9,Leche Lala 100 Sin Lactosa 1 Litros,24.95,Milanesa de Ternera Blanca kg,318.9,Jalapeños San Marcos Enteros 780g,25.0
+63,Almendras y Semillas de Calabaza Fresh Gourmet Topping para Ensalada 99g,65.01,Té de Limón fresco Tiempo de Cosecha 50g,22.9,Leche Lala 100 Sin Lactosa Reducida en G,25.7,Pulpa de Ternera Blanca kg,318.9,Jalapeños San Marcos Enteros 255g,7.0
+64,Tejocote Kg,38.1,Bouquet Garni frescas Tiempo de Cosecha 50g,22.9,Leche Lala 100 Semidescremada 1 Litros,25.7,Aguja Larga de Res P/Asar kg,129.0,Jalapeños San Marcos Enteros 380g,13.5
+65,Aderezo de Albahaca Verde Botella 250 ml,44.9,Tomillo fresco Tiempo de Cosecha 50g,22.9,Leche Lala 100 Reducida en Grasa 1 lt,25.7,Diezmillo/Asado Tira Sonora Res Kg,284.0,Rajas San Marcos Verdes 380g,16.85
+66,Aderezo De Eneldo botella 250 ml,44.9,Epazote fresco Tiempo de Cosecha 50g,22.9,Leche Lala Café Deslac UHT 330 Mililitro,13.5,Vacío de Res por kg,169.0,Chipotles San Marcos Adobados Enteros 120g,8.55
+67,Chimichurri Con Hierbas Frasco 175 g,39.9,Ruda fresca Tiempo de Cosecha 50g,22.9,Leche Lala Semi Ultra Pasteurizada 1Lt,22.5,Bistec Paleta para Asarde Res por Kg,149.0,Chiles Serranos La Costeña Enteros en Escabeche 220g,11.8
+68,Aderezo De Cebollin Botella 250 ml,44.9,Hinojo Fresco Clam 50 g,22.9,Leche Lala Light Ultrapasteurizad 1 Lt,22.5,Entraña Choice Res Kg,429.0,Chiles Chipotles La Costeña Adobados 380g,31.1
+69,Ali Oli Con Cebollin Frasco 190 g,49.9,Yerbabuena fresca Tiempo de Cosecha 50g,22.9,Leche Lala Entera Ultrapast 1 Lt,22.4,Alambre de Res por kg,179.0,Chiles Nachos Jalapeños La Costeña Rodajas 380g,17.5
+70,Aderezo De Arugula Botella 250 ml,44.9,Bouquet Hierbas Finas frescas Tiempo de Cosecha 50g,22.9,Leche Lala 100 Past Entera 1 lt,25.7,Costilla Norteña p/asar Res kg,139.0,Chiles Jalapeños La Costeña Picados 380g,23.7

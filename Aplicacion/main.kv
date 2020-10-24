@@ -1,6 +1,8 @@
 #: include dashboard.kv
 # include firstscreen.kv
 #: include kv/settingsscreen.kv
+#: include kv/sugerenciasscreen.kv
+#: include kv/mapacomercios.kv
 
 NavigationLayout:
     id: nav_layout
@@ -24,13 +26,20 @@ NavigationLayout:
                         name : "dashboard"
                     
                     SettingsScreen:
-                        id: "settings_screen"
+                        id: settings_screen
                         name: "settings_screen"
                     
                     FirstScreen:
                         id: first_screen
                         name: "first_screen"
                         
+                    SugerenciasScreen:
+                        id: sugerencias_screen
+                        name: "sugerencias_screen"
+
+                    MapaComercios:
+                        id: mapa_comercios
+                        name: "mapa_comercios"
                 
                 
     
@@ -71,7 +80,6 @@ NavigationLayout:
                             icon: "view-dashboard"      
                     
                     
-                    
                     OneLineIconListItem:
                         text: "Comparador Precios"
                         on_release:
@@ -80,6 +88,24 @@ NavigationLayout:
                             
                         IconLeftWidget:
                             icon: "cart"
+                            
+                    OneLineIconListItem:
+                        text: "Sugerencias"
+                        on_release:
+                            screen_manager.current = "sugerencias_screen"
+                            nav_drawer.set_state()
+                            
+                        IconLeftWidget:
+                            icon: "head-cog"
+
+                    OneLineIconListItem:
+                        text: "Mapa Comercios"
+                        on_release:
+                            screen_manager.current = "mapa_comercios"
+                            nav_drawer.set_state()
+
+                        IconLeftWidget:
+                            icon: "map-legend"
                             
                             
                             
