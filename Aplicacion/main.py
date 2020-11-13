@@ -79,7 +79,7 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         
         
         
-        mydialog = MDDialog(title = "Actualizacion de Precios",
+        mydialog = MDDialog(title = "Actualización de Precios",
                             text = "Se actualizaran los precios que se muestran en cada una de las categorias del comparador de precios",
                             size_hint = [.5, .5],
                             auto_dismiss= True,
