@@ -11,7 +11,7 @@ from kivymd.uix.datatables import MDDataTable
 import pandas as pd
 from kivy.metrics import dp
 from kivymd.uix.button import MDRectangleFlatButton
-from kivymd.uix.button import MDRectangleFlatIconButton
+from kivymd.uix.button import MDRectangleFlatIconButton, MDFlatButton
 from kivymd.uix.button import MDFillRoundFlatButton
 
 from kivymd.uix.button import MDRoundFlatButton
@@ -19,9 +19,6 @@ from kivymd.uix.label import MDLabel
 from kivymd.uix.dialog import MDDialog
 
 import ActualizaPrecios as ap # Pendiente ver como incluir esta parte para actualizar los archivos
-#from kivy.properties import NumericProperty
-
-
 
 class DashBoard(Screen):#Pantalla de Convertidor de unidades
     def __init__(self, **kwargs):
@@ -65,7 +62,6 @@ class DashBoard(Screen):#Pantalla de Convertidor de unidades
         except ValueError:
             self.ids["solution"].text = "Carácteres no aceptados"
             self.ids["solution"].theme_text_color = "Error"
-        
     pass
 
 class FirstScreen(Screen): #Pantalla comparador de precios
@@ -73,29 +69,13 @@ class FirstScreen(Screen): #Pantalla comparador de precios
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.app = MDApp.get_running_app()
-        
-        #'FirstScreen' object has no attribute 'theme_cls' ver esto
-        
-        
-        
-        
-        mydialog = MDDialog(title = "Actualización de Precios",
-                            text = "Se actualizaran los precios que se muestran en cada una de las categorias del comparador de precios",
-                            size_hint = [.5, .5],
-                            auto_dismiss= True,
-                            
-                            #events_callback =self.my_callback, 
-                            #text_button_ok = "Yes",
-                            #text_button_cancel = "No"
-                
-                            )
-        
+
         self.buttonactualizar = MDRectangleFlatIconButton(
                                        pos_hint = {"center_x":.5, "top": .95},
                                        #size_hint = (.3,.1),
                                        icon = "cart-arrow-down",
                                        text = " Precios",
-                                       on_release = mydialog.open)
+                                       )
         
         self.etiqueta1 = MDLabel(text = 'Consultar por Tienda',
                              pos_hint = {"center_x": .5, "top":.80},
@@ -173,7 +153,9 @@ class FirstScreen(Screen): #Pantalla comparador de precios
                                        text = 'Enlatados',
                                        on_release = lambda x: self.verboton('enlatados')
                                        )
-        
+
+        self.buttonactualizar.bind(on_press=lambda x: self.ActualizaPrecio())
+
         self.add_widget(self.buttonactualizar)
         self.add_widget(self.buttonche)
         self.add_widget(self.buttonsor)
@@ -186,7 +168,7 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         self.add_widget(self.buttoncarnes)
         self.add_widget(self.buttonlacteos)
         self.add_widget(self.buttonenlatados)
-        
+
         #food-steak carne food-drumstick
         #food-apple fruta
         #cheese lacteos
@@ -194,6 +176,24 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         #dome-light
         #return self.button
     #def tabla(self, widget):
+
+    def ActualizaPrecio(self):
+        self.dialog = MDDialog(title = "Actualización de Precios",
+                               text = "Se actualizarán los precios que se muestran en cada una de las categorías del comparador de precios,"
+                                      " este proceso puede demorar algunos  un par de minutos, por favor sea paciente",
+                               size_hint=[.9, .9],
+                               auto_dismiss=True,
+
+                               buttons=[MDFlatButton(
+                                   text="CERRAR",
+                                   on_release=self.dialog_close)
+                               ]
+                               )
+        self.dialog.open()
+
+    def dialog_close(self, *args): # Cierra el dialog del boton ayuda
+        print("Cerrando Dialog")
+        self.dialog.dismiss()
         
     def verboton(self, valor):
         if valor == 'comer':
@@ -240,8 +240,7 @@ class FirstScreen(Screen): #Pantalla comparador de precios
     def my_callback(self, texto, popup_widget): # funcion que ayuda a cerrar el dialog del boton actualizar
         print(texto)
         print(popup_widget)
-        
-    
+
     def open_table(self, instance):
         #screen.add_widget(table)
         self.table.open()
