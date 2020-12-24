@@ -122,7 +122,7 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
     #Quitando los simbolos $ y convirtiendo en flotante los precios
     i=0
     for precio in precios:
-        precios[i] = float(precio.strip('$'))
+        precios[i] = float((precio.strip('$')).replace(',',''))
         i+=1
     
     i=0
@@ -238,3 +238,4 @@ def correcion_datos_hbe(nombres, precios, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
     
         info_hbe.to_csv('csv/info_hbe.csv', encoding = 'utf8')
+        

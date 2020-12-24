@@ -75,6 +75,7 @@ def datosche(): #Funcion Obtiene datos de la pagina del comercio Chedraui
             if tipo_pagina == 0:
                 response = get(pagina_frutas + pagina + '&pageSize=24') #pagina de chedraui
           
+            
             if tipo_pagina == 1:
                 response = get(pagina_verduras + pagina + '&pageSize=24')
     
@@ -132,7 +133,7 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
     #Quitando los simbolos $ y convirtiendo en flotante los precios
     i=0
     for precio in precios:
-        precios[i] = float(precio.strip('$'))
+        precios[i] = float((precio.strip('$')).replace(',',''))
         i+=1
     
     i=0
@@ -251,3 +252,4 @@ def correcion_datos_che(nombres, precios, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
         
         info_che.to_csv('csv/info_che.csv', encoding = 'utf8')
+

@@ -9,8 +9,11 @@ import Scrapping_lacomer as comer
 import Scrapping_sor as sor
 
 
+
 def main():
-    
+    """Funcion principal del fichero ACtualizaPrecios, en el se inicializa las variables a utilizar, se crean los archivos para guardar la
+    informacion que se obtiene del web Scrapping, se inicializan los hilos que ejecutan las funciones correspondientes a cada una de los comercios
+    """
     crearuta = r'csv' #ruta a crear carpeta donde guardar documentos csv
     if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
     #eliminar estas lineas en los scrapping de los otros py
@@ -22,7 +25,7 @@ def main():
     df.to_csv('csv/infocarnes.csv', encoding = 'utf8')
     df.to_csv('csv/infoenlatados.csv', encoding = 'utf8')
     
-    
+
     thread = threading.Thread(target = che.datosche) #Inicializando los hilos
     thread.start()
     
@@ -34,6 +37,25 @@ def main():
     
     thread4 = threading.Thread(target = sor.datossor) #Inicializar un hilo llamando a una funcion
     thread4.start()
+
+
+    #supervthread = threading.Thread(target = supervisache) #Inicializando los hilos
+
+    '''
+    if finsor() == True:
+        print("ha acabo de soriana")
     
+    if thread.is_alive():
+        print("Hilo 1 esta vivo")
+    else:
+        print("Hilo 1 murio")
+
+    if thread2.is_alive():
+        print("Hilo 2 esta vivo")
+    else:
+        print("Hilo 2 murio")
+    '''
+
+
 if __name__ == '__main__':
     main()    

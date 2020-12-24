@@ -3,6 +3,7 @@
 #: include kv/settingsscreen.kv
 #: include kv/sugerenciasscreen.kv
 #: include kv/mapacomercios.kv
+#: include kv/reportegastos.kv
 
 NavigationLayout:
     id: nav_layout
@@ -40,6 +41,10 @@ NavigationLayout:
                     MapaComercios:
                         id: mapa_comercios
                         name: "mapa_comercios"
+
+                    ReporteGastos:
+                        id: reporte_gastos
+                        name: "reporte_gastos"
                 
                 
     
@@ -106,6 +111,16 @@ NavigationLayout:
 
                         IconLeftWidget:
                             icon: "map-legend"
+
+
+                    OneLineIconListItem:
+                        text: "Reporte de Gastos"
+                        on_release:
+                            screen_manager.current = "reporte_gastos"
+                            nav_drawer.set_state()
+
+                        IconLeftWidget:
+                            icon: "cash-multiple"
                             
                             
                             

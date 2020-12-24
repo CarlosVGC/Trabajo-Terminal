@@ -6,6 +6,9 @@ from baseclass.settingsscreen import SettingsScreen
 from baseclass.utilidades import Banner
 from baseclass.sugerenciasscreen import SugerenciasScreen
 from baseclass.mapacomercios import MapaComercios
+from baseclass.reportegastos import ReporteGastos
+import ActualizaPrecios as ap
+
 
 from kivymd.uix.datatables import MDDataTable
 import pandas as pd
@@ -17,8 +20,18 @@ from kivymd.uix.button import MDFillRoundFlatButton
 from kivymd.uix.button import MDRoundFlatButton
 from kivymd.uix.label import MDLabel
 from kivymd.uix.dialog import MDDialog
+from kivymd.uix.progressbar import MDProgressBar
+import threading
 
-import ActualizaPrecios as ap # Pendiente ver como incluir esta parte para actualizar los archivos
+
+######### temp
+from time import sleep
+
+from plyer import notification
+from random import randint
+
+
+
 
 class DashBoard(Screen):#Pantalla de Convertidor de unidades
     def __init__(self, **kwargs):
@@ -29,7 +42,14 @@ class DashBoard(Screen):#Pantalla de Convertidor de unidades
         self.hint_onza_number = "Ingresa la cantidad de onzas"
     
     def on_pre_enter(self, *args):
+
+        """"Funcion que se ejecuta al iniciar la aplicacion, se incluyen diferentes parametros que se desean que apararezcan
+        cuando se ejecuta la aplicacion, se cambia el titulo de la aplicacion y se crean las notificaciones iniciales que se
+        le mostrarán al usuario"""
         self.app.title = "Convertidor Unidades" #Se cambia el nombre de la pantalla
+        self.MuestraNotificacionInicial()
+
+
         
     def on_kv_post(self, base_widget): #Se lea el archivo kivy
         grid = self.ids["grid_utilidades"]
@@ -64,11 +84,52 @@ class DashBoard(Screen):#Pantalla de Convertidor de unidades
             self.ids["solution"].theme_text_color = "Error"
     pass
 
+    def MuestraNotificacionInicial(self):
+        """Muestra la notificacion inicial cuando se inicia la aplicación, esta funcion se llama al inicializar la aplicacion y despliega la notificación"""
+        print("Estoy en muestra notifica")
+
+        self.a = randint(1, 5)
+        print(self.a)
+        if self.a == 1:
+            notification.notify(title='Acerca del Convertidor de Unidades',
+                                message='Utiliza el convertidor de unidades para transformar rápidamente unidades: '
+                                        'Peso: libras, onzas, gramos, kilogramos,'
+                                        'Volumen: Litro, Galón,'
+                                        'Temperatura: Celsius, Farenheit',
+                                timeout=50)
+        if self.a == 2:
+            notification.notify(title='Acerca de Ajustes',
+                                message='Utiliza la sección ajustes para personalizar el aspecto de los menús',
+                                timeout=50)
+
+        if self.a == 3:
+            notification.notify(title='Acerca del Comparador de precios',
+                                message='Utiliza el comparador de precios para encontrar productos como verduras, frutas, carnes, lacteos o enlatados '
+                                        'puedes consultar estos precios por tiendas departamentales ',
+                                timeout=50)
+
+        if self.a == 4:
+            notification.notify(title='Acerca de sugerencias',
+                                message='La sección sugerencias puede ser de utilidad para aprender sobre algún aspecto '
+                                        'como alimentación o buenos hábitos, ¡no dudes en consultarla!',
+                                timeout=50)
+
+        if self.a == 5:
+            notification.notify(title='Acerca de mapa de comercios',
+                                message='Utiliza el mapa para localizar comercios rápidamente, puedes localizar con un solo click la ubicacion de '
+                                        'HEB, Chedraui, La Comer y Soriana',
+                                timeout=50)
+
+        pass
+
+
 class FirstScreen(Screen): #Pantalla comparador de precios
-    
+    """Clase principal donde se ejecuta el modulo comparador de precios, en ella se inicializan las variables correspondientes que se
+    utilizaran en el módulo"""
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.app = MDApp.get_running_app()
+        self.valorbarra = 0
 
         self.buttonactualizar = MDRectangleFlatIconButton(
                                        pos_hint = {"center_x":.5, "top": .95},
@@ -76,7 +137,20 @@ class FirstScreen(Screen): #Pantalla comparador de precios
                                        icon = "cart-arrow-down",
                                        text = " Precios",
                                        )
-        
+        self.msgactualiza = MDLabel(text = 'Actualizando, espera por favor',
+                                    pos_hint = {"center_x": .5, "top":.87},
+                                    size_hint = (.8,.1),
+                                    theme_text_color = "Primary",
+                                    font_style= "Subtitle1",
+                                    halign = "center"
+                                    )
+
+        self.barra = MDProgressBar(id= "barrasss",
+                                   value=0,
+                                   pos_hint={"center_x": .5, "center_y": .80},
+                                   size_hint= (.9,.1)
+                                   )
+
         self.etiqueta1 = MDLabel(text = 'Consultar por Tienda',
                              pos_hint = {"center_x": .5, "top":.80},
                              size_hint = (.5,.1),
@@ -157,6 +231,7 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         self.buttonactualizar.bind(on_press=lambda x: self.ActualizaPrecio())
 
         self.add_widget(self.buttonactualizar)
+
         self.add_widget(self.buttonche)
         self.add_widget(self.buttonsor)
         self.add_widget(self.buttonhbe)
@@ -177,7 +252,40 @@ class FirstScreen(Screen): #Pantalla comparador de precios
         #return self.button
     #def tabla(self, widget):
 
+    def MuestraNotificacionComparador(self):
+        """Se muestra las notificaciones que se anexaron al modulo del comparador de precios"""
+        self.a = randint(1, 5)
+        print(self.a)
+        if self.a == 1:
+
+            notification.notify(title='Como Actualizar los precios',
+                                message='Puedes actualizar los precios de los productos pulsando el boton de Actualizar que se encuentra en'
+                                        'la parte superior',
+                                timeout=20)
+
+        if self.a == 2:
+            notification.notify(title='Visualización de los Precios',
+                                message='Los precios pueden ser consultados deslizando la tabla que se muestra al consultar alguna categoría',
+                                timeout=20)
+
+        pass
+
     def ActualizaPrecio(self):
+        """Función desde la cual se obtienen los precios, se llama una funcion que esta en el fichero Actualiza Precios, se ejecutan hilos
+        para obtener los precios simultaneamente, de esta manera se previene el congelamiento de la aplicación, en esta función tambien se
+        llama a la funcion actualiza barra"""
+        ap.main()
+
+        self.add_widget(self.barra)
+        self.add_widget(self.msgactualiza)
+        self.buttonactualizar.disabled = True
+        self.hiloactualiza = threading.Thread(target=self.actualizabarra)  # Inicializar un hilo llamando a una funcion
+        self.hiloactualiza.start()
+
+
+        #self.actualizabarra()
+
+
         self.dialog = MDDialog(title = "Actualización de Precios",
                                text = "Se actualizarán los precios que se muestran en cada una de las categorías del comparador de precios,"
                                       " este proceso puede demorar algunos  un par de minutos, por favor sea paciente",
@@ -186,16 +294,32 @@ class FirstScreen(Screen): #Pantalla comparador de precios
 
                                buttons=[MDFlatButton(
                                    text="CERRAR",
-                                   on_release=self.dialog_close)
+                                   on_release=self.dialog_close),
                                ]
                                )
         self.dialog.open()
+    def actualizabarra(self):
+        """Funcion que actualiza la barra mostrada en el módulo comparador de precios"""
+        #if ap.sor.correccion_datos_sor() == True:
+        for a in range(100):
+            self.valorbarra = self.valorbarra + 1
+            self.barra.value= self.valorbarra
+            sleep(1.3)
+
+        sleep(5)
+        self.remove_widget(self.msgactualiza)
+        sleep(1)
+        self.remove_widget(self.barra)
+
+
 
     def dialog_close(self, *args): # Cierra el dialog del boton ayuda
+        """Funcion que cierra el dialog que se despliega al oprimir el botón actualizar"""
         print("Cerrando Dialog")
         self.dialog.dismiss()
         
     def verboton(self, valor):
+        self.MuestraNotificacionComparador()
         if valor == 'comer':
             datos = pd.read_csv("csv/info_lacomer.csv", encoding = 'utf8')
         elif valor == 'hbe':
@@ -236,12 +360,13 @@ class FirstScreen(Screen): #Pantalla comparador de precios
 
         self.table.open()
         print(valor)
-        
+
     def my_callback(self, texto, popup_widget): # funcion que ayuda a cerrar el dialog del boton actualizar
         print(texto)
         print(popup_widget)
 
     def open_table(self, instance):
+        """Despliega el contenido de la tabla correpondiente al boton pulsado"""
         #screen.add_widget(table)
         self.table.open()
         

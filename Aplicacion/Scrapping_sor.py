@@ -242,3 +242,7 @@ def correccion_datos_sor(precios, nombres, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
         
         info_sor.to_csv('csv/info_sor.csv', encoding = 'utf8')
+
+
+
+

@@ -134,7 +134,7 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
     #Quitando los simbolos $ y convirtiendo en flotante los precios
     i=0
     for precio in precios:
-        precios[i] = float(precio.strip('$ M.N'))
+        precios[i] = float((precio.strip('$ M.N')).replace(',',''))
         i+=1
     
     i=0
@@ -251,3 +251,4 @@ def correcion_datos_lacomer(nombres, precios, tipo_pagina):
         if not os.path.exists(crearuta): os.makedirs(crearuta) # creacion de la carpeta
         
         info_lacomer.to_csv('csv/info_lacomer.csv', encoding = 'utf8')
+

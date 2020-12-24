@@ -3,6 +3,9 @@ from kivymd.app import MDApp
 from kivymd.uix.picker import MDDatePicker, MDTimePicker, MDThemePicker
 from datetime import datetime
 
+from plyer import notification
+from random import randint
+
 class SettingsScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -10,6 +13,22 @@ class SettingsScreen(Screen):
         
     def on_pre_enter(self, *args):
         self.app.title = "Ajustes"
+        self.MuestraNotificacionInicial()
+
+    def MuestraNotificacionInicial(self):
+        """Muestra la notificacion inicial cuando se inicia la aplicación, esta funcion se llama al inicializar la aplicacion y despliega la notificación"""
+        print("Estoy en muestra notifica")
+
+        self.a = randint(1, 2)#
+        print(self.a)
+        if self.a == 1:
+            notification.notify(title='Puedes personalizar el esquema de colores',
+                                message='Selecciona el esquema de tu preferencia en la sección de ajuste, busca el simbolo de una brocha, ese es el lugar',
+                                timeout=20)
+        if self.a == 2:
+            notification.notify(title='Cambia a modo nocturno',
+                                message='Si deseas cambiar a modo nocturno puedes hacerlo en la parte de ajustes,en  la primera opción que se muestra puedes hacerlo',
+                                timeout=20)
         
     def cambiar_modo(self, checkbox, value):
         if value:
